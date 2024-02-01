@@ -38,6 +38,8 @@ class PagesController extends Controller
     $table_test_reg->Telefono = $request->Telefono;
     $table_test_reg->Mensaje = $request->Mensaje;
     $table_test_reg->Tipo_de_Informacion = $request->Tipo_de_Informacion;
+    $table_test_reg->checkbox_form = $request->checkbox_form;
+
 
     // if ($validator->fails()) {
     //     return back()->with('error', 'Favor de revisarlo');

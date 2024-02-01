@@ -9,19 +9,9 @@
    <title>
     Notaria 118
    </title>
-   <!--     Fonts and icons     -->
-   <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" /> -->
-   <!-- <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"> -->
-   <!-- Nucleo Icons -->
-   <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
-   <!-- CSS Files -->
-   <link href="./assets/css/blk-design-system-pro.css?v=1.0.0" rel="stylesheet" />
-   <!-- CSS Just for demo purpose, don't include it in your project -->
-   <!-- <link href="./assets/demo/demo.css" rel="stylesheet" /> -->
 
-   <!-- <link href="./assets/css/slick-theme.css" rel="stylesheet" />
-   <link href="./assets/css/slick.css" rel="stylesheet" />
-   <link href="./assets/css/styles.css" rel="stylesheet" /> -->
+   <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
+   <link href="./assets/css/blk-design-system-pro.css?v=1.0.0" rel="stylesheet" />
 
    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
 
@@ -31,576 +21,11 @@
 
    <link href="./assets/css/style.css" rel="stylesheet" />
 
+   <!-- <link href="./assets/css/material-kit-pro.css?v=3.0.3" rel="stylesheet" /> -->
+
 
 
  </head>
-
- <!-- <style>
-  body {
-  margin: 0;
-  font-family: "Poppins", sans-serif;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #525f7f;
-  text-align: left;
-  background-color: #47484f;
-}
-
-.navbar.bg-primary {
-  background-color: rgba(58, 58, 58, 0.8)!important;
-}
-
-.bg-info {
-  background-color: #6d83ad !important;
-}
-
-.card {
-  background: #1f2251;
-  border: 0;
-  position: relative;
-  width: 100%;
-  box-shadow: 0 1px 20px 0px rgba(0, 0, 0, 0.1);
-  border-radius: 7px;
-  margin-top: 30px;
-}
-
-.contactus-4 .map:after {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 700%;
-  background: rgba(34, 42, 66, 0);
-  background-position: 23% 10%;
-  left: 0;
-  top: 0;
-  text-align: center;
-  align-items: center;
-
-  
-}
-
-.contactus-4 .info .info .icon {
-  color: #ffff;
-}
-
-
-.contactus-4 .info {
-  height: 100%;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  padding: 15px;
-}
-
-.info {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 70px 10px 30px;
-  text-align: center;
-  border-radius: 3px;
-}
-
-.contactus-4 .title {
-  margin-top: 0px;
-}
-
-.contactus-4 .description {
-  margin-bottom: 0px;
-}
-
-[class*="blogs-"] .title {
-  margin-bottom: 7px;
-}
-
-.title {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-weight: 600;
-  color: rgba(255, 255, 255, 0.8);
-}
-
-.navbar .navbar-brand {
-  position: relative;
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-  color: #ffffff;
-  text-transform: capitalize;
-  font-size: 1rem;
-}
-
-.navbar-brand {
-  display: inline-block;
-  padding-top: 0rem;
-  padding-bottom: 0.rem;
-  margin-right: 0rem;
-  font-size: 0.99925rem;
-  line-height: inherit;
-  white-space: nowrap;
-}
-
-.navbar .navbar-brand {
-    margin-left: 0px;
-    position: relative;
-  }
-
-  .burger-menu.menu-on-left .navbar-brand {
-    float: right;
-    margin-right: 0;
-    margin-left: 0rem;
-  }
-
-  @media screen and (max-width: 991px) {
-    .box {
-  border-radius: 5px;
-  font-family: sans-serif;
-  text-align: center;
-  font-size: 1rem;
-  line-height: 1;
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
-  padding: 13px 1rem;
-}
-
-  .navbar .navbar-translate {
-    width: 100%;
-    position: relative;
-    display: flex;
-    justify-content: space-between !important;
-  }
-  .navbar-collapse {
-    position: absolute;
-    width: calc(100% - 1.4rem);
-    height: auto !important;
-    left: 0;
-    top: 0;
-    margin: 0.7rem;
-    background: rgba(69, 69, 69, 0.96);
-    border-radius: 0.2857rem;
-    padding: 1.4rem;
-  }
-  .navbar.bg-white .navbar-nav .nav-item a.nav-link {
-    color: #ffffff !important;
-  }
-}
-
-  @media screen and (min-width: 992px) {
-    .box {
-  border-radius: 5px;
-  font-family: sans-serif;
-  text-align: center;
-  font-size: 1rem;
-  line-height: 1;
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
-  padding: 13px 5.4rem;
-}
-
-  .navbar .navbar-translate {
-    width: 100%;
-    position: relative;
-    display: flex;
-    justify-content: space-between !important;
-  }
-  .navbar-collapse {
-    position: absolute;
-    width: calc(100% - 1.4rem);
-    height: auto !important;
-    left: 0;
-    top: 0;
-    margin: 0.7rem;
-    background: rgba(69, 69, 69, 0.96);
-    border-radius: 0.2857rem;
-    padding: 1.4rem;
-  }
-  .navbar.bg-white .navbar-nav .nav-item a.nav-link {
-    color: #ffffff !important;
-  }
-}
-
-.blogs-4 .card {
-  margin-bottom: 0px;
-  text-align: center;
-}
-
-.card .card-body .card-title {
-  color: #ffffff;
-  text-transform: inherit;
-  font-weight: 300;
-  margin-bottom: .75rem;
-  margin-top: 15px;
-  line-height: 1.25em;
-}
-
-.card-background.card-blog[data-animation="true"]:after,
-.card-background.card-blog[data-animation="zooming"]:after {
-  height: 100%;
-  top: auto;
-  border-radius: 0.4285rem;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.75) 100%);
-}
-
-textarea.form-control {
-  padding: -0.5rem 0.7rem;
-  max-width: 100%;
-  max-height: 100%;
-  resize: none;
-  border-radius: 0.4285rem;
-  line-height: 2;
-}
-
-.hero-image {
-  background-image: url("assets/img/img_3.jpg");
-  width: 100%;
-  background-position: center center;
-  background-size:cover;
-}
-
-.textEdit2{
-color: rgba(255, 255, 255, 0.999);
-font-size: 1.2em;
-text-align: left;
-}
-
-.textEdit1{
-color: rgba(255, 255, 255, 0.999);
-}
-
-  .container0{
-padding: 15px
-  }
-
-  .container1{
-    padding-left: 5px;
-    padding-right:5px;
-    padding-top: 15px;
-    padding-bottom: 45px;
-  }
-
-  .container3{ 
-    width: auto;
-    display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-gap: 15px;
-    margin: 0 auto;
-  }
-
-@media (min-width: 0px) and (max-width: 1080px) {
-#container2 {
-    width: auto;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-gap: 55px;
-    padding: 10px;
-} 
-
-.card-2{
-    position: relative;
-    width: 90%;
-    height: 250px;
-    margin: 0 auto;
-    background: #fff;
-    box-shadow: 0 15px 60px rgba(0,0,0, .5);
-    border-radius: 15px;
-  }
-
-  .card-2:hover .face.face2{
-    height: 0px;
-    border-radius: 0 0 15px 15px;
-  }
-
-  .card-2:hover .face.face2 .hoverText{
-    font-size: 0em;
-    border-radius: 0px 0px 0px 0px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 0px;
-  }
-
-  .card-2:hover .face.face2 .hoverText2{
-    font-size: 0em;
-    border-radius: 0px 0px 0px 0px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 0px;
-  }
-
-  .card-2 .face.face2{
-    font-size: 1.3em;
-    background: #111;
-    transition: 0.5s;
-  }
-
-  .card-2 .face.face1 li{
-    color: rgba(26, 26, 26, 0.945);
-    font-size: .8em;
-
-  }
-
-  .card-2 .face.face1 .p2{
-  color: rgba(26, 26, 26, 0.945);
-  font-size: 1.2em;
-  font-weight: bold;
-}
-  
-}
-
-
-@media (min-width: 1081px) and (max-width: 1300px){
-  .container2{
-    width: auto;
-    display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-gap: 15px;
-    margin: 0 auto;
-  }
-
-  .card-2{
-    position: relative;
-    width: 350px;
-    height: 600px;
-    margin: 0 auto;
-    background: #fff;
-    box-shadow: 0 15px 60px rgba(0,0,0, .5);
-    border-radius: 15px;
-  }
-
-  .card-2:hover .face.face2{
-    height: 60px;
-    border-radius: 0 0 15px 15px;
-  }
-
-  .card-2:hover .face.face2 .hoverText{
-    font-size: 2.5em;
-    border-radius: 0px 0px 0px 0px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 0px;
-  }
-
-  .card-2:hover .face.face2 .hoverText2{
-    font-size: 1.7em;
-    border-radius: 0px 0px 0px 0px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 0px;
-  }
-
-  .card-2 .face.face2{
-    font-size: .5em;
-    background: #111;
-    transition: 0.5s;
-  }
-
-  .card-2 .face.face1 li{
-    color: rgba(26, 26, 26, 0.945);
-    font-size: .67em;
-
-  }
-
-  .card-2 .face.face1 .p2{
-  color: rgba(26, 26, 26, 0.945);
-  font-size: .8em;
-  font-weight: bold;
-}
-
-
-}
-
-
-@media (min-width: 1301px){
-  .container2{
-    width: auto;
-    display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-gap: 15px;
-    margin: 0 auto;
-  }
-
-  .card-2{
-    position: relative;
-    width: 350px;
-    height: 600px;
-    margin: 0 auto;
-    background: #fff;
-    box-shadow: 0 15px 60px rgba(0,0,0, .5);
-    border-radius: 15px;
-  }
-
-  .card-2:hover .face.face2{
-    height: 60px;
-    border-radius: 0 0 15px 15px;
-  }
-
-  .card-2:hover .face.face2 .hoverText{
-    font-size: 1.7em;
-    border-radius: 0px 0px 0px 0px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 0px;
-  }
-
-  .card-2:hover .face.face2 .hoverText2{
-    font-size: 1.2em;
-    border-radius: 0px 0px 0px 0px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 0px;
-  }
-
-  .card-2 .face.face2{
-    font-size: .8em;
-    background: #111;
-    transition: 0.5s;
-  }
-
-  .card-2 .face.face1 li{
-    color: rgba(26, 26, 26, 0.945);
-    font-size: .8em;
-
-  }
-
-  .card-2 .face.face1 .p2{
-  color: rgba(26, 26, 26, 0.945);
-  font-size: 1.2em;
-  font-weight: bold;
-}
-}
-
-  .card-2 .face{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: top;
-  }
-  
-  .card-2 .face.face1{
-  box-sizing: border-box;
-  padding: 20px;
-  background: linear-gradient(45deg, #dadada, #aaaaaa);
-  border-radius: 15px;
-}
-  
-  .card-2 .face.face1 h2{
-    color: #242424;
-    margin: 0;
-    padding: 0;
-  }
-
-  .card-2 .face.face1 p{
-    color: #242424;
-  }
-  
-  .card-2 .face.face1 .content{
-    font-size: 1.2em;
-    margin:0;
-    padding:0 0 1em 0;
-    font-weight:500;
-  }
-  
-
-  .card-2:nth-child(1) .face.face2{
-    background-position: center;
-    background-size: cover;
-    background-image: url('assets/img/contratos_1.jpg');
-    border-radius: 15px;
-  }
-  
-  .card-2:nth-child(2) .face.face2{
-    background-position: center;
-    background-size: cover;
-    background-image: url('assets/img/mercantil_1.jpg');
-    border-radius: 15px;
-  }
-  
-  .card-2:nth-child(3) .face.face2{ 
-    background-position: center;
-    background-size: cover;
-    background-image: url('assets/img/mid-adult-s.jpg');
-    border-radius: 15px;
-  }
-  
-  .card-2:nth-child(4) .face.face2{ 
-    background-position: center;
-    background-size: cover;
-    background-image: url('assets/img/businessman-consulting-legal-expert.jpg');
-    border-radius: 15px;
-  }
-
-  .card-2:nth-child(5) .face.face2{
-    background-position: center;
-    background-size: cover;
-    background-image: url('assets/img/silhouette-family-walking-by-sunset-time.jpg');
-    border-radius: 15px;
-  }
-
-  .card-2:nth-child(6) .face.face2{
-    background-position: center;
-    background-size: cover;
-    background-image: url('assets/img/consultoria_1.jpg');
-    border-radius: 15px;
-  }
-  
-
-  
-  .card-2 .face.face2:before{
-    content:'';
-    position: absolute;
-    top:0;
-    left:0;
-    width: 0%;
-
-    height: 100%;
-    background: rgba(255,255,255, 0.1);
-    border-radius: 15px 0 0 15px;
-  }
-
-
-  
-  .card-2 .face.face2 h3{
-    font-family: 'Roboto', sans-serif;
-    margin: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    font-size: 2.5em;
-    color: rgba(255, 255, 255, 1);
-    transition: 0.5s;
-
-    height: 100%;
-    width: 100%;
-    top: auto;
-    border-radius: 15px 15px 15px 15px;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.45) 100%);
-  }
-
-  .formatText{
-  text-align: left;
-  align-items: left;
-  padding-left: 20%;
-}
-
-
-.bi-people-fill{
-font-size: 3em;
-}
-
-.bi-eye-fill{
-font-size: 3em;
-}
-
-.bi-person-hearts{
-font-size: 3em;
-}
- </style> -->
  
  <body class="sections-page">
    <nav class="box navbar navbar-expand-lg  bg-primary fixed-top  nav-down">
@@ -666,7 +91,44 @@ font-size: 3em;
      </div>
    </nav>
 
-   <div class="wrapper">
+   <!-- -------- START HEADER 6 w/ mobile ------- -->
+<header>
+  <div class="page-header min-vh-75 bg-gradient-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 my-auto">
+          <div class="brand">
+            <h1 class="text-white mb-0"> Material Kit Premium</h1>
+            <p class="text-white opacity-8"> Start your development with a badass material UI Kit for youy projects inspired by Material Design. </p>
+            <button class="btn btn-white mt-4" type="button" name="button">Check more</button>
+          </div>
+        </div>
+        <div class="col-lg-6 ms-auto">
+          <img src="../../assets/img/iphones.png" class="w-70 z-index-2 ms-5" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
+  <div class="container">
+    <div class="row pt-4">
+      <div class="col-xl-5 col-md-8 col-12 text-start">
+        <div class="text-start border-radius-lg">
+          <h3>See our projects</h3>
+          <p class="mb-4">
+            <span class="font-weight-bold">The time</span>
+            is now for it to be okay to be great. People in this world shun people for being great.
+            For being a bright color. Contact us at <a href="javascript:;" class="text-primary font-weight-normal">contact@material-design.com</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- -------- END HEADER 12 w/ mobile ------- -->
+
+   {{-- <div class="wrapper">
      <div class="section-space"></div>
      <div class="cd-section" id="headers">
        <div class="header header-1">
@@ -685,7 +147,7 @@ font-size: 3em;
            </div>
          </div>
        </div>
-     </div>
+     </div> --}}
      <!-- ------------------------------- -->
      <!-- ------------------------------- -->
 {{-- <div class="cd-section" id="features">
@@ -950,7 +412,7 @@ font-size: 3em;
         <div class="container">
           <div class="row">
             <div class="col-md-10 ml-auto mr-auto">
-              <h2 class="title">Test</h2>
+              <h2 class="title">Test 2</h2>
               <br />
               <div class="card card-blog card-plain blog-horizontal">
                 <div class="row">
@@ -1346,25 +808,11 @@ font-size: 3em;
      </div> --}}
        <!-- ------------------------------------- -->
 
-
-
-
-<!-- <div class="wrapper"> -->
-  <!-- <div class="section-space"></div> -->
-    <!-- <div class="cd-section" id="headers"> -->
-      <!-- <div class="header header-1"> -->
-        <!-- <div class="page-header header-filter">
-          <div class="page-header-image" style="background-image: url('assets/img/business-people-shaking-hands-together.jpg');"></div> -->
-
-          <!-- <div class="page-header header-filter"> -->
           <div class="header-filter">
 
             <div class="hero-image">
 
             <div class="contactus-4" id="contactus">
-
-                <!-- <div class="row">
-                <div class="col d-flex justify-content-center"> -->
 
                 <div class="container">
               <div class="row">
@@ -1379,9 +827,6 @@ font-size: 3em;
                           <form class="p-3" action="{{route('comentatios_recibir')}}" method="POST">
                             @csrf
 
-                            <!-- <div class="card-header">
-                  <h4 class="card-title">Contactanos</h4>
-                </div> -->
                               <div class="card-body">
 
                                   <div class="row">
@@ -1571,18 +1016,6 @@ font-size: 3em;
   </div>
 </div>
 
-
-
-
-<!-- </div> -->
-<!-- ---------------------------------------------------------- -->
-<!-- </div> -->
-<!-- </div> -->
-<!-- </div> -->
-
-
-
-
          <footer class="footer">
            <div class="container">
 
@@ -1591,32 +1024,12 @@ font-size: 3em;
            </div>
          </footer>
        </div>
-       <!--   Core JS Files   -->
        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
        <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
-       <!-- <script src="./assets/js/core/popper.min.js" type="text/javascript"></script> -->
        <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-       <!-- <script src="./assets/js/plugins/perfect-scrollbar.jquery.min.js"></script> -->
-       <!-- <script src="./assets/css/slick.min.js"></script> -->
-       <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
-       <!-- <script src="./assets/js/plugins/bootstrap-switch.js"></script>
-       <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script> -->
-       <!-- <script src="./assets/js/plugins/slick.js" type="text/javascript"></script> -->
-       <!-- <script src="./assets/js/plugins/anime.min.js" type="text/javascript"></script>
-       <script src="./assets/js/plugins/chartjs.min.js"></script>
-       <script src="./assets/js/plugins/moment.min.js"></script>
-       <script src="./assets/js/plugins/bootstrap-tagsinput.js"></script>
-       <script src="./assets/js/plugins/bootstrap-selectpicker.js" type="text/javascript"></script>
-       <script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
-       <script src="./assets/js/plugins/jasny-bootstrap.min.js"></script> -->
-       <!-- <script src="./assets/demo/demo.js"></script> -->
-       <!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script> -->
        <script src="./assets/js/blk-design-system-pro.min.js?v=1.0.0" type="text/javascript"></script>
        <script src="./assets/js/plugins/sweetalert2.all.min.js"></script>
-       <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.6/dist/sweetalert2.all.min.js"></script> -->
-       <!-- <script src="./assets/test.js"></script> -->
-       <!-- <script src="./assets/css/app.js"></script> -->
        @include('success')
        @include('error')
 
@@ -1642,239 +1055,13 @@ function statusCheck() {
                         });
                         $('#buttonStart #checkboxPolyline').attr('unchecked', 'checked').change();
 
-          //  blackKit.initVideoBackground();
  
            if ($('.nav-down').length != 0) {
              blackKit.checkScrollForMovingNavbar();
            };
  
-          //  $(".center").slick({
-          //    dots: false,
-          //    infinite: true,
-          //    centerMode: true,
-          //    slidesToShow: 4,
-          //    slidesToScroll: 1,
-          //    responsive: [{
-          //        breakpoint: 1024,
-          //        settings: {
-          //          slidesToShow: 3,
-          //          slidesToScroll: 1,
-          //          infinite: true,
-          //        }
-          //      },
-          //      {
-          //        breakpoint: 600,
-          //        settings: {
-          //          slidesToShow: 2,
-          //          slidesToScroll: 1
-          //        }
-          //      },
-          //      {
-          //        breakpoint: 480,
-          //        settings: {
-          //          slidesToShow: 1,
-          //          slidesToScroll: 1
-          //        }
-          //      }
-          //    ]
-          //  });
- 
-          //  $('.customer-logos').slick({
-          //    slidesToShow: 6,
-          //    slidesToScroll: 1,
-          //    autoplay: true,
-          //    autoplaySpeed: 2500,
-          //    arrows: false,
-          //    dots: false,
-          //    pauseOnHover: false,
-          //    responsive: [{
-          //        breakpoint: 768,
-          //        settings: {
-          //          slidesToShow: 4
-          //        }
-          //      },
-          //      {
-          //        breakpoint: 520,
-          //        settings: {
-          //          slidesToShow: 3
-          //        }
-          //      },
-          //      {
-          //        breakpoint: 480,
-          //        settings: {
-          //          slidesToShow: 1,
-          //          slidesToScroll: 1
-          //        }
-          //      }
-          //    ]
-          //  });
-
-          //  {
-          //    class ImgItem {
-          //      constructor(el) {
-          //        this.DOM = {};
-          //        this.DOM.el = el;
-          //        this.DOM.svg = this.DOM.el.querySelector('.item__svg');
-          //        this.DOM.path = this.DOM.svg.querySelector('path');
-          //        this.paths = {};
-          //        this.paths.start = this.DOM.path.getAttribute('d');
-          //        this.paths.end = this.DOM.el.dataset.morphPath;
-          //        this.DOM.deco = this.DOM.svg.querySelector('.item__deco');
-          //        this.DOM.image = this.DOM.svg.querySelector('image');
-          //        this.DOM.title = this.DOM.el.querySelector('.item__meta > .item__title');
-          //        this.DOM.subtitle = this.DOM.el.querySelector('.item__meta > .item__subtitle');
-          //        this.CONFIG = {
-          //          animation: {
-          //            path: {
-          //              duration: this.DOM.el.dataset.animationPathDuration || 1500,
-          //              delay: this.DOM.el.dataset.animationPathDelay || 0,
-          //              easing: this.DOM.el.dataset.animationPathEasing || 'easeOutElastic',
-          //              elasticity: this.DOM.el.dataset.pathElasticity || 400,
-          //              scaleX: this.DOM.el.dataset.pathScalex || 1,
-          //              scaleY: this.DOM.el.dataset.pathScaley || 1,
-          //              translateX: this.DOM.el.dataset.pathTranslatex || 0,
-          //              translateY: this.DOM.el.dataset.pathTranslatey || 0,
-          //              rotate: this.DOM.el.dataset.pathRotate || 0
-          //            },
-          //            image: {
-          //              duration: this.DOM.el.dataset.animationImageDuration || 2000,
-          //              delay: this.DOM.el.dataset.animationImageDelay || 0,
-          //              easing: this.DOM.el.dataset.animationImageEasing || 'easeOutElastic',
-          //              elasticity: this.DOM.el.dataset.imageElasticity || 400,
-          //              scaleX: this.DOM.el.dataset.imageScalex || 1.1,
-          //              scaleY: this.DOM.el.dataset.imageScaley || 1.1,
-          //              translateX: this.DOM.el.dataset.imageTranslatex || 0,
-          //              translateY: this.DOM.el.dataset.imageTranslatey || 0,
-          //              rotate: this.DOM.el.dataset.imageRotate || 0
-          //            },
-          //            deco: {
-          //              duration: this.DOM.el.dataset.animationDecoDuration || 2500,
-          //              delay: this.DOM.el.dataset.animationDecoDelay || 0,
-          //              easing: this.DOM.el.dataset.animationDecoEasing || 'easeOutQuad',
-          //              elasticity: this.DOM.el.dataset.decoElasticity || 400,
-          //              scaleX: this.DOM.el.dataset.decoScalex || 0.9,
-          //              scaleY: this.DOM.el.dataset.decoScaley || 0.9,
-          //              translateX: this.DOM.el.dataset.decoTranslatex || 0,
-          //              translateY: this.DOM.el.dataset.decoTranslatey || 0,
-          //              rotate: this.DOM.el.dataset.decoRotate || 0
-          //            }
-          //          }
-          //        };
-          //        this.initEvents();
-          //      }
-          //      initEvents() {
-          //        this.mouseenterFn = () => {
-          //          this.mouseTimeout = setTimeout(() => {
-          //            this.isActive = true;
-          //            this.animate();
-          //          }, 75);
-          //        }
-          //        this.mouseleaveFn = () => {
-          //          clearTimeout(this.mouseTimeout);
-          //          if (this.isActive) {
-          //            this.isActive = false;
-          //            this.animate();
-          //          }
-          //        }
-          //        this.DOM.el.addEventListener('mouseenter', this.mouseenterFn);
-          //        this.DOM.el.addEventListener('mouseleave', this.mouseleaveFn);
-          //        this.DOM.el.addEventListener('touchstart', this.mouseenterFn);
-          //        this.DOM.el.addEventListener('touchend', this.mouseleaveFn);
-          //      }
-          //      getAnimeObj(targetStr) {
-          //        const target = this.DOM[targetStr];
-          //        let animeOpts = {
-          //          targets: target,
-          //          duration: this.CONFIG.animation[targetStr].duration,
-          //          delay: this.CONFIG.animation[targetStr].delay,
-          //          easing: this.CONFIG.animation[targetStr].easing,
-          //          elasticity: this.CONFIG.animation[targetStr].elasticity,
-          //          scaleX: this.isActive ? this.CONFIG.animation[targetStr].scaleX : 1,
-          //          scaleY: this.isActive ? this.CONFIG.animation[targetStr].scaleY : 1,
-          //          translateX: this.isActive ? this.CONFIG.animation[targetStr].translateX : 0,
-          //          translateY: this.isActive ? this.CONFIG.animation[targetStr].translateY : 0,
-          //          rotate: this.isActive ? this.CONFIG.animation[targetStr].rotate : 0
-          //        };
-          //        if (targetStr === 'path') {
-          //          animeOpts.d = this.isActive ? this.paths.end : this.paths.start;
-          //        }
-          //        anime.remove(target);
-          //        return animeOpts;
-          //      }
-          //      animate() {
-          //        anime(this.getAnimeObj('path'));
-          //        anime(this.getAnimeObj('image'));
-          //        anime(this.getAnimeObj('deco'));
-          //        anime.remove(this.DOM.title);
-          //        anime({
-          //          targets: this.DOM.title,
-          //          easing: 'easeOutQuad',
-          //          translateY: this.isActive ? [{
-          //              value: '-50%',
-          //              duration: 200
-          //            },
-          //            {
-          //              value: ['50%', '0%'],
-          //              duration: 200
-          //            }
-          //          ] : [{
-          //              value: '50%',
-          //              duration: 200
-          //            },
-          //            {
-          //              value: ['-50%', '0%'],
-          //              duration: 200
-          //            }
-          //          ],
-          //          opacity: [{
-          //              value: 0,
-          //              duration: 200
-          //            },
-          //            {
-          //              value: 1,
-          //              duration: 200
-          //            }
-          //          ]
-          //        });
-          //        anime.remove(this.DOM.subtitle);
-          //        anime({
-          //          targets: this.DOM.subtitle,
-          //          easing: 'easeOutQuad',
-          //          translateY: this.isActive ? {
-          //            value: ['50%', '0%'],
-          //            duration: 200,
-          //            delay: 250
-          //          } : {
-          //            value: '0%',
-          //            duration: 1
-          //          },
-          //          opacity: this.isActive ? {
-          //            value: [0, 1],
-          //            duration: 200,
-          //            delay: 250
-          //          } : {
-          //            value: 0,
-          //            duration: 1
-          //          }
-          //        });
-          //      }
-          //    }
- 
-          //    const items = Array.from(document.querySelectorAll('.item'));
-          //    const init = (() => items.forEach(item => new ImgItem(item)))();
-          //    setTimeout(() => document.body.classList.remove('loading'), 2000);
-          //  };
- 
          });
        </script>
-       <!-- <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script> -->
-       <!-- <script>
-        //  window.TrackJS &&
-        //    TrackJS.install({
-        //      token: "ee6fab19c5a04ac1a32a645abde4613a",
-        //      application: "black-dashboard-pro"
-        //    });
-       </script> -->
  </body>
  
  </html>
