@@ -675,7 +675,7 @@ header#main-header #hamburger {
       justify-content: space-around;
 }
 
-#nuestro-equipo #equipo {
+/* #nuestro-equipo #equipo {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
@@ -687,7 +687,7 @@ header#main-header #hamburger {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
   }
-}
+} */
 
 #nuestro-equipo #equipo .miembro .c {
   display: -ms-grid;

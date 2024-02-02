@@ -6,21 +6,21 @@ body {
     line-height: 1.5;
     color: #525f7f;
     text-align: left;
-    background-color: #47484f;
+    background-color: #181818;
   }
   
   .navbar.bg-primary {
-    background-color: rgba(58, 58, 58, 0.8)!important;
+    background-color: #bf9b30ce!important;
   }
   
   .bg-info {
-    background-color: #1f2251 !important;
+    background-color: #797979 !important;
   }
   
   .card {
-    color: #ffffff;
+    color: #202020;
 
-    background: #6d83ad;
+    background: #f0f0f0;
     
     border: 0;
     position: relative;
@@ -46,7 +46,7 @@ body {
   }
   
   .contactus-4 .info .info .icon {
-    color: #ffff;
+    color: #292929;
   }
   
   
@@ -81,7 +81,7 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.8);
+    color: #bf9b30;
   }
   
   .navbar .navbar-brand {
@@ -676,3 +676,17 @@ body {
     opacity: 1;
     color:#FFFFFF;
   }
+
+  .footer{
+    padding:50px 0;
+    /* border-top:2px solid #bf9b30; */
+    border-top: .3rem ridge #bf9b30;
+    background:radial-gradient(ellipse at bottom,#2c2c2c 10%,#000000 90%);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .footer [class*=container-]{padding:0}
+  
+  .footer .nav{float:left;margin-bottom:0;padding-top:25px;list-style:none}
+  
+  .footer .nav,.footer .nav-item{display:block}

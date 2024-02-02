@@ -7,13 +7,13 @@
    <link rel="Logo7" sizes="76x76" href="./assets/img/logo_108_asset.png">
    <link rel="icon" type="image/png" href="./assets/img/logo_108_asset.png">
    <title>
-    Notaria 118
+    Notaría 118
    </title>
 
+   <!-- Nucleo Icons -->
    <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
+   <!-- CSS Files -->
    <link href="./assets/css/blk-design-system-pro.css?v=1.0.0" rel="stylesheet" />
-
-   <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
 
    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
 
@@ -21,18 +21,14 @@
 
    <link href="./assets/css/style.css" rel="stylesheet" />
 
-   <!-- <link href="./assets/css/material-kit-pro.css?v=3.0.3" rel="stylesheet" /> -->
-
 
 
  </head>
- 
+
  <body class="sections-page">
    <nav class="box navbar navbar-expand-lg  bg-primary fixed-top  nav-down">
-     <!-- <div class="container"> -->
        <div class="navbar-translate">
          <a class="navbar-brand">
-           <!-- <span>Notaria </span>#104 -->
                    <span><img src="assets/img/logo_108_white_banner.png" alt="Bujo" width="90" height="55"></span>
          </a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,7 +45,6 @@
              </div>
              <div class="col-5 collapse-brand">
                <a>
-               <!-- <span><img src="assets/img/Logo5.png" alt="Bujo" width="80" height="50"></span> -->
                </a>
              </div> 
              <div class="col-6 collapse-close text-right">
@@ -62,27 +57,23 @@
          <ul class="navbar-nav ml-auto">
 
 <li class="nav-item">
-        <a class="nav-link" href="./#headers">
+        <a class="nav-link" href="./#inicio">
         Inicio
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./#features">
+        <a class="nav-link" href="./#nosotros">
         Nosotros
         </a>
       </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="./#nosotros">
-        Nosotros
-        </a> -->
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./#blogs-4">
+        <a class="nav-link" href="./#servicios">
         Servicios
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./#contactus">
+        <a class="nav-link" href="./#contactanos">
         Contacto
         </a>
       </li>
@@ -91,46 +82,9 @@
      </div>
    </nav>
 
-   <!-- -------- START HEADER 6 w/ mobile ------- -->
-<header>
-  <div class="page-header min-vh-75 bg-gradient-dark">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5 my-auto">
-          <div class="brand">
-            <h1 class="text-white mb-0"> Material Kit Premium</h1>
-            <p class="text-white opacity-8"> Start your development with a badass material UI Kit for youy projects inspired by Material Design. </p>
-            <button class="btn btn-white mt-4" type="button" name="button">Check more</button>
-          </div>
-        </div>
-        <div class="col-lg-6 ms-auto">
-          <img src="../../assets/img/iphones.png" class="w-70 z-index-2 ms-5" loading="lazy">
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-<div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
-  <div class="container">
-    <div class="row pt-4">
-      <div class="col-xl-5 col-md-8 col-12 text-start">
-        <div class="text-start border-radius-lg">
-          <h3>See our projects</h3>
-          <p class="mb-4">
-            <span class="font-weight-bold">The time</span>
-            is now for it to be okay to be great. People in this world shun people for being great.
-            For being a bright color. Contact us at <a href="javascript:;" class="text-primary font-weight-normal">contact@material-design.com</a>.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- -------- END HEADER 12 w/ mobile ------- -->
-
-   {{-- <div class="wrapper">
+   <div class="wrapper">
      <div class="section-space"></div>
-     <div class="cd-section" id="headers">
+     <div class="cd-section" id="inicio">
        <div class="header header-1">
          <div class="page-header header-filter">
            <div class="page-header-image" style="background-image: url('assets/img/img_2.jpg');"></div>
@@ -139,7 +93,7 @@
              <div class="col-lg-5 col-md-12 ml-auto mt-5">
                </div>
              <div class="col-lg-7 col-md-12 ml-auto mt-7">
-                   <img src="assets\img\logo_108_gimp.png">
+                   <img src="assets\img\43970.png">
                </div>
                <div class="col-lg-7 col-md-7 mr-auto text-left mt-5">
                </div>
@@ -147,23 +101,22 @@
            </div>
          </div>
        </div>
-     </div> --}}
+     </div>
+
      <!-- ------------------------------- -->
-     <!-- ------------------------------- -->
+
 {{-- <div class="cd-section" id="features">
        <div class="features-1">
          <div class="container">
            <div class="row">
              <div class="col-md-8 ml-auto mr-auto">
-               <!-- <h1 class="title">Acerca De</h1> -->
              </div>
            </div>
            <div class="row">
              <div class="col-md-4">
                <div class="info info-hover">
                  <div class="icon icon-primary">
-                   <!-- <img class="bg-blob" src="assets/img/feature-blob/primary.png"> -->
-                   <!-- <i class="tim-icons icon-user-run"></i> -->
+
                    <i class="bi bi-people-fill"></i>
                  </div>
                  <h4 class="info-title">Misión</h4>
@@ -191,13 +144,9 @@
              <div class="col-md-4">
                <div class="info info-hover">
                  <div class="icon icon-warning">
-                   <!-- <img class="bg-blob" src="assets/img/feature-blob/warning.png"> -->
-                   <!-- <i class="tim-icons icon-gift-2"></i> -->
                    <i class="bi bi-person-hearts"></i>
                  </div>
                  <h4 class="info-title">Valores</h4>
-                 <!-- <p class="description">...</p> -->
-             <!-- <div class="col-md-5"> -->
                  <div class="formatText">
                  <p>Honestidad: Nos regimos por los más altos estándares éticos y de integridad en
                   todos nuestros servicios, garantizando la confianza y tranquilidad de nuestros
@@ -232,7 +181,7 @@
 
 <br><br>
 
-<div class="cd-section" id="features">
+<div class="cd-section" id="nosotros">
 <Center><h3 class="title" style="font-weight: bold">Nosotros</h3></Center><br>
 <center>
 
@@ -408,107 +357,9 @@
         </div>
       </div> --}}
 
-      <div class="section blogs-3">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-10 ml-auto mr-auto">
-              <h2 class="title">Test 2</h2>
-              <br />
-              <div class="card card-blog card-plain blog-horizontal">
-                <div class="row">
-                  <div class="col-lg-4">
-                    <div class="card-image">
-                      <a href="javascript:;">
-                        <img class="img rounded" src="assets/img/serge-kutuzov.jpg" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="col-lg-8">
-                    <div class="card-body">
-                      <h3 class="card-title">
-                        <a href="javascript:;">Rover raised $65 million for pet sitting</a>
-                      </h3>
-                      <p class="card-description">
-                        Finding temporary housing for your dog should be as easy as renting an Airbnb. That’s the idea behind Rover, which raised $65 million to expand its pet sitting and dog-walking businesses..Finding temporary housing for your dog should be as easy as renting an Airbnb. That’s the idea behind Rover, which raised $65 million to expand its pet sitting and dog-walking businesses..
-                        <a href="javascript:;"> Read More </a>
-                      </p>
-                      <div class="author">
-                        <img src="assets/img/julie.jpg" alt="..." class="avatar img-raised">
-                        <div class="text">
-                          <span class="name">Tom Hanks</span>
-                          <div class="meta">Drawn on 23 Jan</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card card-blog card-plain blog-horizontal">
-                <div class="row">
-                  <div class="col-lg-4">
-                    <div class="card-image">
-                      <a href="javascript:;">
-                        <img class="img rounded" src="assets/img/trae-gould.jpg" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="col-lg-8">
-                    <div class="card-body">
-                      <h3 class="card-title">
-                        <a href="javascript:;">MateLabs mixes machine learning with IFTTT</a>
-                      </h3>
-                      <p class="card-description">
-                        If you’ve ever wanted to train a machine learning model and integrate it with IFTTT, you now can with a new offering from MateLabs. MateVerse, a platform where novices can spin out machine...If you’ve ever wanted to train a machine learning model and integrate it with IFTTT, you now can with a new offering from MateLabs. MateVerse, a platform where novices can spin out machine...
-                        <a href="javascript:;"> Read More </a>
-                      </p>
-                      <div class="author">
-                        <img src="assets/img/james.jpg" alt="..." class="avatar img-raised">
-                        <div class="text">
-                          <span class="name">Tom Hanks</span>
-                          <div class="meta">Drawn on 23 Jan</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card card-blog card-plain blog-horizontal">
-                <div class="row">
-                  <div class="col-lg-4">
-                    <div class="card-image">
-                      <a href="javascript:;">
-                        <img class="img rounded" src="assets/img/mark-harrison.jpg" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="col-lg-8">
-                    <div class="card-body">
-                      <h3 class="card-title">
-                        <a href="javascript:;">US venture investment ticks up in Q2 2017</a>
-                      </h3>
-                      <p class="card-description">
-                        Venture investment in U.S. startups rose sequentially in the second quarter of 2017, boosted by large, late-stage financings and a few outsized early-stage rounds in tech and healthcare..enture investment in U.S. startups rose sequentially in the second quarter of 2017, boosted by large, late-stage financings and a few outsized early-stage rounds in tech and healthcare..
-                        <a href="javascript:;"> Read More </a>
-                      </p>
-                      <div class="author">
-                        <img src="assets/img/michael.jpg" alt="..." class="avatar img-raised">
-                        <div class="text">
-                          <span class="name">Tom Hanks</span>
-                          <div class="meta">Drawn on 23 Jan</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
 <!-- ------------------------------- -->
 
-<div class="container1" id="blogs-4">
+<div class="container1" id="servicios">
   <div class="container0">
 <h2 class="title">Servicios</h2>
 </div>
@@ -762,7 +613,6 @@
 
      
 
-     <!-- --------------------------------------- -->
      {{-- <div class="cd-section" id="features">
        <div class="features-1">
          <div class="container">
@@ -806,13 +656,13 @@
          </div>
        </div>
      </div> --}}
-       <!-- ------------------------------------- -->
+
 
           <div class="header-filter">
 
             <div class="hero-image">
 
-            <div class="contactus-4" id="contactus">
+            <div class="contactus-4" id="contactanos">
 
                 <div class="container">
               <div class="row">
@@ -824,14 +674,14 @@
 
                       <div class="row">
                         <div class="col-md-7">
-                          <form class="p-3" action="{{route('comentatios_recibir')}}" method="POST">
+                          <form class="p-3" action="{{route('comentatios_recibir')}}" method="POST" id="miFormulario">
                             @csrf
 
                               <div class="card-body">
 
                                   <div class="row">
                                     <div class="col-md-6">
-                                      <label style="color: #FFFFFF;font-weight: 500;">Nombre</label>
+                                      <label style="color: #0f0f0f;font-weight: 500;">Nombre</label>
                                         <div class="input-group">
                                           <div class="input-group-prepend">
                                             <span class="input-group-text"><i class="tim-icons icon-single-02"></i></span>
@@ -846,7 +696,7 @@
                                 
                                     <div class="col-md-6">
                                       <div class="form-group">
-                                          <label style="color: #FFFFFF;font-weight: 500;">Teléfono</label>
+                                          <label style="color: #0f0f0f;font-weight: 500;">Teléfono</label>
                                         <div class="input-group">
                                             <div class="input-group-prepend">
                                               <span class="input-group-text"><i class="tim-icons icon-tablet-2"></i></span>
@@ -863,7 +713,7 @@
 
 
                                   <div class="form-group">
-                                      <label style="color: #FFFFFF;font-weight: 500;">Correo electrónico</label>
+                                      <label style="color: #0f0f0f;font-weight: 500;">Correo electrónico</label>
                                     <div class="input-group">
                                       <div class="input-group-prepend">
                                         <span class="input-group-text"><i class="tim-icons icon-email-85"></i></span>
@@ -877,7 +727,7 @@
 
 
                                   <div class="form-group">
-                                    <label style="color: #FFFFFF;font-weight: 500;">Mensaje</label>
+                                    <label style="color: #0f0f0f;font-weight: 500;">Mensaje</label>
                                     <textarea  class="form-control force-opaque textarea-limited" placeholder="Máximo de 450 caracteres." rows="10" ,="" maxlength="450" name="Mensaje" >{{ old('Mensaje') }}</textarea>
                                   </div>
                                   @error('Mensaje')
@@ -898,7 +748,6 @@
                                 <div class="row">
                                 <div class="col-md-8">
 
-                                  <!-- <br><input type="checkbox" name="checkbox_form" id="option" value="{{old('option')}}"><label for="option"><span></span> <p>Ik ga akkoord met de <a href="#">algemene voorwaarden</a></p></label> -->
                                   <br><br><input type="checkbox" type="radio" name="checkbox_form" id="option"> <label for="option"><span></span> <p>He leído el  <a href="./assets/doc/Notaría 104. Aviso de Privacidad.pdf" target="_Blank">Aviso de privacidad</a></p></label>
                                   @error('checkbox_form')
                                     <p style="color:red"><strong>*{{'Favor de aceptar el Aviso de Privacidad'}}</strong></p>
@@ -907,7 +756,7 @@
 
 
                                   <div class="col-md-4">
-                                    <button type="submit" class="btn btn-primary btn-round pull-right" onClick="this.form.submit(); this.disabled=true; this.value='Sending…'; this.form.reset()">Enviar mensaje</button>
+                                    <button type="submit" class="btn btn-primary btn-round pull-right" onClick="this.form.submit(); this.disabled=true; this.value='Sending…'; this.form.reset()"  id="enviarBtn">Enviar mensaje</button>
                                   </div>
                                 </div>
 
@@ -1016,6 +865,8 @@
   </div>
 </div>
 
+
+
          <footer class="footer">
            <div class="container">
 
@@ -1024,17 +875,38 @@
            </div>
          </footer>
        </div>
+       <!--   Core JS Files   -->
        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
        <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
        <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
        <script src="./assets/js/blk-design-system-pro.min.js?v=1.0.0" type="text/javascript"></script>
        <script src="./assets/js/plugins/sweetalert2.all.min.js"></script>
+
        @include('success')
        @include('error')
 
        <script>
 
+
+document.getElementById('enviarBtn').addEventListener('click', function () {
+        Swal.fire({
+            title: '¿Estás seguro?',
+            text: '¿Quieres enviar el mensaje?',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Sí, enviarlo!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                // Envía el formulario si el usuario confirma
+                document.getElementById('miFormulario').submit();
+            }
+        });
+    });
+
+                        
 $('div.checkbox-group.required :checkbox:checked').length > 0
 
 
@@ -1055,7 +927,6 @@ function statusCheck() {
                         });
                         $('#buttonStart #checkboxPolyline').attr('unchecked', 'checked').change();
 
- 
            if ($('.nav-down').length != 0) {
              blackKit.checkScrollForMovingNavbar();
            };
