@@ -5,7 +5,7 @@
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    <link rel="Logo7" sizes="76x76" href="./assets/img/logo_108_asset.png">
-   <link rel="icon" type="image/png" href="./assets/img/43970.png">
+   <link rel="icon" type="image/png" href="./assets/img/test_1.png">
    <title>
     Notaría 118
    </title>
@@ -29,7 +29,7 @@
    <nav class="box navbar navbar-expand-lg  bg-primary fixed-top  nav-down">
        <div class="navbar-translate">
          <a class="navbar-brand">
-                   <span><img src="assets/img/43970.png" alt="Bujo" width="90" height="55"></span>
+                   <span><img src="assets/img/test_1.png" alt="Bujo" width="30" height="55"></span>
          </a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-bar bar1"></span>
@@ -87,14 +87,14 @@
      <div class="cd-section" id="inicio">
        <div class="header header-1">
          <div class="page-header header-filter">
-           <!-- <div class="page-header-image" style="background-image: url('assets/img/img_2.jpg');"></div> -->
-           <div class="page-header-image color-fondo"></div>
+           <div class="page-header-image" style="background-image: url('assets/img/img_1.jpg');"></div>
+           <!-- <div class="page-header-image color-fondo"></div> -->
            <div class="container">
              <div class="row">
              <div class="col-lg-3 col-md-12 ml-auto mt-3">
                </div>
-             <div class="col-lg-6 col-md-12 ml-auto mt-6">
-                   <img src="assets\img\Sin título-122.png">
+             <div class="col-lg-3 col-md-12 ml-auto mt-6">
+                   <img class="imagen_logo" src="assets\img\test_1.png">
                </div>
              <div class="col-lg-3 col-md-12 ml-auto mt-3">
                <!-- <div class="col-lg-4 col-md-7 mr-auto text-left mt-4"> -->
@@ -1291,7 +1291,7 @@
 
           <div class="header-filter">
 
-            <div class="hero-image">
+            <div class="hero-image_2">
 
             <div class="contactus-4" id="contactanos">
 
