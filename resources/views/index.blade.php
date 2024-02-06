@@ -5,7 +5,7 @@
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    <link rel="Logo7" sizes="76x76" href="./assets/img/logo_108_asset.png">
-   <link rel="icon" type="image/png" href="./assets/img/logo_108_asset.png">
+   <link rel="icon" type="image/png" href="./assets/img/43970.png">
    <title>
     Notaría 118
    </title>
@@ -29,7 +29,7 @@
    <nav class="box navbar navbar-expand-lg  bg-primary fixed-top  nav-down">
        <div class="navbar-translate">
          <a class="navbar-brand">
-                   <span><img src="assets/img/logo_108_white_banner.png" alt="Bujo" width="90" height="55"></span>
+                   <span><img src="assets/img/43970.png" alt="Bujo" width="90" height="55"></span>
          </a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-bar bar1"></span>
@@ -87,15 +87,17 @@
      <div class="cd-section" id="inicio">
        <div class="header header-1">
          <div class="page-header header-filter">
-           <div class="page-header-image" style="background-image: url('assets/img/img_2.jpg');"></div>
+           <!-- <div class="page-header-image" style="background-image: url('assets/img/img_2.jpg');"></div> -->
+           <div class="page-header-image color-fondo"></div>
            <div class="container">
              <div class="row">
-             <div class="col-lg-5 col-md-12 ml-auto mt-5">
+             <div class="col-lg-3 col-md-12 ml-auto mt-3">
                </div>
-             <div class="col-lg-7 col-md-12 ml-auto mt-7">
-                   <img src="assets\img\43970.png">
+             <div class="col-lg-6 col-md-12 ml-auto mt-6">
+                   <img src="assets\img\Sin título-122.png">
                </div>
-               <div class="col-lg-7 col-md-7 mr-auto text-left mt-5">
+             <div class="col-lg-3 col-md-12 ml-auto mt-3">
+               <!-- <div class="col-lg-4 col-md-7 mr-auto text-left mt-4"> -->
                </div>
              </div>
            </div>
@@ -103,6 +105,8 @@
        </div>
      </div>
 
+
+     <!-- background-color: #bf9b30ce!important; -->
      <!-- ------------------------------- -->
 
 {{-- <div class="cd-section" id="features">
@@ -181,7 +185,7 @@
 
 <br><br>
 
-<div class="cd-section" id="nosotros">
+{{-- <div class="cd-section" id="nosotros">
 <Center><h3 class="title" style="font-weight: bold">Nosotros</h3></Center><br>
 <center>
 
@@ -282,11 +286,637 @@
 </div>
 
 
-</center>
+</center> --}}
 
+<!-- ------------------------------ -->
 
+      <!--     *********     FEATURES 3      *********      -->
+      <div class="features-3" id="nosotros">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 mr-auto ml-auto">
+              <h1 class="title">Nosotros</h1>
+              <!-- <h4 class="description">"Notaría de confianza: Garantizamos tranquilidad jurídica, tu respaldo legal sin preocupaciones."</h4> -->
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mr-auto">
+              <div class="info info-horizontal">
+                <div class="icon icon-success">
+                  <!-- <img class="bg-blob" src="assets/img/feature-blob/secondary.png"> -->
+                  <!-- <i class="tim-icons icon-html5"></i> -->
+                  <!-- <i class="bi bi-person-hearts"></i> -->
+                  <i class="bi bi-bank"></i>
+                </div>
+                <div class="description">
+                  <h3 class="info-title">Misión</h3>
+                  <p>Nuestra notaría tiene como misión fundamental asegurar la certeza legal de los actos jurídicos de nuestros clientes. Comprometidos con la excelencia, ética y transparencia, nos esforzamos por brindar asesoramiento experto y ejecución eficiente de trámites, siendo un socio confiable para contribuir a la seguridad legal de la comunidad. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mr-auto">
+              <div class="info info-horizontal">
+                <div class="icon icon-warning">
+                  <!-- <img class="bg-blob" src="assets/img/feature-blob/secondary.png"> -->
+                  <!-- <i class="tim-icons icon-heart-2"></i> -->
+                  <i class="bi bi-lightbulb-fill"></i>
+                </div>
+                <div class="description">
+                  <h3 class="info-title">Visión</h3>
+                  <p>Visualizamos ser la notaría líder en garantizar la certeza legal para la comunidad, destacándonos por nuestra excelencia, ética y transparencia en los servicios notariales. Nos esforzamos por ser el referente en asesoramiento legal y ejecución eficiente de trámites, contribuyendo así a la seguridad jurídica de nuestra comunidad. Aspiramos a ser la elección preferida de aquellos que buscan confianza y calidad en sus asuntos legales, consolidando nuestra posición como un socio esencial para la comunidad en la búsqueda de certidumbre legal. </p>
+                </div>
+              </div>
+            </div>
+
+          <div class="col-md-4 mr-auto">
+              <div class="info info-horizontal">
+                <div class="icon icon-warning">
+                  <!-- <img class="bg-blob" src="assets/img/feature-blob/secondary.png"> -->
+                  <!-- <i class="tim-icons icon-heart-2"></i> -->
+                  <i class="bi bi-heart-fill"></i>
+                </div>
+                  <div class="description">
+                    <h3 class="info-title">Valores</h3>
+                    <p>• Profesionalismo</p>
+                    <p>• Experiencia</p>
+                    <p>• Transparencia</p>
+                    <p>• Responsabilidad</p>
+                    <p>• Empatía y Comunicación</p>
+                    <p>• Disponibilidad y Rapidez</p>
+                  </div>
+                  <!-- <p>Visualizamos ser la notaría líder en garantizar la certeza legal para la comunidad, destacándonos por nuestra excelencia, ética y transparencia en los servicios notariales. Nos esforzamos por ser el referente en asesoramiento legal y ejecución eficiente de trámites, contribuyendo así a la seguridad jurídica de nuestra comunidad. Aspiramos a ser la elección preferida de aquellos que buscan confianza y calidad en sus asuntos legales, consolidando nuestra posición como un socio esencial para la comunidad en la búsqueda de certidumbre legal. </p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="row">
+            <div class="col-md-3 ml-auto">
+              <div class="info info-horizontal">
+                <div class="icon icon-danger">
+                  <img class="bg-blob" src="assets/img/feature-blob/danger.png">
+                  <i class="tim-icons icon-chart-bar-32"></i>
+                </div>
+                <div class="description">
+                  <h3 class="info-title">Valores</h3>
+                  <p>Profesionalismo</p>
+                  <p>Experiencia</p>
+                  <p>Transparencia</p>
+                  <p>Responsabilidad</p>
+                  <p>Empatía y Comunicación</p>
+                 <p>Disponibilidad y Rapidez</p>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          </div>
+        </div>
+      </div>
+      <!--     *********    END FEATURES 3      *********      -->
 
 <!-- ---------------------------------- -->
+
+      <!--     *********     BLOGS 3      *********      -->
+      {{-- <div class="section blogs-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 ml-auto mr-auto">
+              <h2 class="title">Latest Blogposts 3</h2>
+              <br />
+              <div class="card card-blog card-plain blog-horizontal">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="card-image">
+                      <a href="javascript:;">
+                        <img class="img rounded" src="assets/img/family_2.jpg" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="card-body">
+                      <h3 class="card-title">
+                        <a href="javascript:;">Rover raised $65 million for pet sitting</a>
+                      </h3>
+                      <p class="card-description">
+                        Finding temporary housing for your dog should be as easy as renting an Airbnb. That’s the idea behind Rover, which raised $65 million to expand its pet sitting and dog-walking businesses..Finding temporary housing for your dog should be as easy as renting an Airbnb. That’s the idea behind Rover, which raised $65 million to expand its pet sitting and dog-walking businesses..
+                        <a href="javascript:;"> Read More </a>
+                      </p>
+                      <div class="author">
+                        <img src="assets/img/julie.jpg" alt="..." class="avatar img-raised">
+                        <div class="text">
+                          <span class="name">Tom Hanks</span>
+                          <div class="meta">Drawn on 23 Jan</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card card-blog card-plain blog-horizontal">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="card-image">
+                      <a href="javascript:;">
+                        <img class="img rounded" src="assets/img/trae-gould.jpg" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="card-body">
+                      <h3 class="card-title">
+                        <a href="javascript:;">MateLabs mixes machine learning with IFTTT</a>
+                      </h3>
+                      <p class="card-description">
+                        If you’ve ever wanted to train a machine learning model and integrate it with IFTTT, you now can with a new offering from MateLabs. MateVerse, a platform where novices can spin out machine...If you’ve ever wanted to train a machine learning model and integrate it with IFTTT, you now can with a new offering from MateLabs. MateVerse, a platform where novices can spin out machine...
+                        <a href="javascript:;"> Read More </a>
+                      </p>
+                      <div class="author">
+                        <img src="assets/img/james.jpg" alt="..." class="avatar img-raised">
+                        <div class="text">
+                          <span class="name">Tom Hanks</span>
+                          <div class="meta">Drawn on 23 Jan</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card card-blog card-plain blog-horizontal">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="card-image">
+                      <a href="javascript:;">
+                        <img class="img rounded" src="assets/img/mark-harrison.jpg" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="card-body">
+                      <h3 class="card-title">
+                        <a href="javascript:;">US venture investment ticks up in Q2 2017</a>
+                      </h3>
+                      <p class="card-description">
+                        Venture investment in U.S. startups rose sequentially in the second quarter of 2017, boosted by large, late-stage financings and a few outsized early-stage rounds in tech and healthcare..enture investment in U.S. startups rose sequentially in the second quarter of 2017, boosted by large, late-stage financings and a few outsized early-stage rounds in tech and healthcare..
+                        <a href="javascript:;"> Read More </a>
+                      </p>
+                      <div class="author">
+                        <img src="assets/img/michael.jpg" alt="..." class="avatar img-raised">
+                        <div class="text">
+                          <span class="name">Tom Hanks</span>
+                          <div class="meta">Drawn on 23 Jan</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> --}}
+      <!--     *********    END BLOGS 4      *********      -->
+      
+<!-- --------------------------------- -->
+
+      <!--     *********    END BLOGS 5      *********      -->
+      <div class="blogs-5" id="servicios">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 ml-auto mr-auto">
+              <h2 class="title">Servicios</h2>
+
+              
+              {{-- <div class="row">
+                <div class="col-lg-3 col-md-6">
+                  <div class="card card-blog card-plain">
+                    <div class="face face1">
+                    <div class="content ">
+                        <img class="img rounded imagen" src="assets/img/118/unrecognizable-man-filling-application-form.jpg">
+
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+                <div class="col-lg-9 col-md-6">
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        <div class="color_1">Contratos, traslativos de dominio</div>
+                      </h4>
+                          <p>• Compraventas, donaciones, dación en pago, adjudicaciones, permutas, prescripciones</p> 
+                          <p>• Fideicomisos traslativos de dominio, y en garantía</p>
+                          <p>• Hipotecas, mutuos, cancelaciones de hipoteca</p>
+                          <p>• Arrendamientos convenios transaccionales servidumbres</p>
+                          <p>• Divisiones, uniones, urbanizaciones, cambios de nomenclatura y rectificaciones de medidas</p>
+                          <p>• Régimen de propiedad en condominio</p>
+                          <p>• Permutas, prescripciones y servidumbres</p>
+                    </div>
+                  </div>
+                </div> --}}
+
+                <div class="row">
+                <div class="col-lg-3 col-md-6">
+                  <div class="card card-plain">
+                    <div class="face face1">
+                    <div class="content ">
+                        <img class="img rounded imagen" src="assets/img/118/unrecognizable-man-filling-application-form.jpg">
+
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+                <div class="col-lg-9 col-md-6">
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        <div class="color_1">Contratos, traslativos de dominio</div>
+                      </h4>
+                          <p>• Operaciones de compra y venta, donaciones, daciones en pago, adjudicaciones, permutas y prescripciones.</p> 
+                          <p>• Fideicomisos que implican transferencia de dominio y aquellos utilizados como garantía.</p>
+                          <p>• Hipotecas, préstamos, cancelaciones de hipotecas.</p>
+                          <p>• Contratos de arrendamiento, acuerdos transaccionales, servidumbres.</p>
+                          <p>• Divisiones de propiedades, fusiones, urbanizaciones, cambios de nomenclatura y correcciones de medidas.</p>
+                          <p>• Regímenes de propiedad en condominio.</p>
+                          <p>• Permutas, prescripciones y servidumbres.</p>
+                    </div>
+                  </div>
+                </div>
+              <!-- </div> -->
+
+              <div class="row">
+                
+                <div class="col-lg-3 col-md-6">
+                  <div class="card card-plain">
+                    <div class="face face1">
+                    <div class="content ">
+                        <img class="img rounded imagen" src="assets/img/118/unrecognizable-man-filling-application-form.jpg">
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+                <div class="col-lg-9 col-md-6">
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        <div class="color_1">Sociedades, mercantiles</div>
+                      </h4>
+                          <p>• Constitución de sociedades mercantiles.</p>
+                          <p>• Actas de asambleas, tanto ordinarias como extraordinarias.</p>
+                          <p>• Protocolización de documentos relacionados con sociedades mercantiles.</p>
+                          <p>• Transferencia de acciones mediante ventas.</p>
+                          <p>• Procesos de fusión y disolución de sociedades mercantiles.</p>
+                    </div>
+                  </div>
+                </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                  <div class="card card-plain">
+                    <div class="face face1">
+                    <div class="content ">
+                        <img class="img rounded imagen" src="assets/img/118/high-angle-woman-office-working.jpg">
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+                <div class="col-lg-9 col-md-6">
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        <div class="color_1">Testamentos</div>
+                      </h4>
+                          <p>• Tramitación de procesos sucesorios.</p>
+                          <p>• Presentación de denuncias para sucesiones con testamento e intestadas.</p>
+                          <p>• Elaboración de inventarios y avalúos.</p>
+                          <p>• Desarrollo de proyectos de partición y adjudicaciones hereditarias.</p>
+
+                    </div>
+                  </div>
+                </div>
+              <!-- </div> -->
+
+              <div class="row">
+                <div class="col-lg-3 col-md-6">
+                  <div class="card card-plain">
+                    <div class="face face1">
+                    <div class="content ">
+                        <img class="img rounded imagen" src="assets/img/118/closeup-businessman-hand-sitting-desk-analyzing-document-with-data-chart-it-working-management-presentation-writing-business-strategy-entrepreneur-brainstorming-ideas-startup-office.jpg">
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+                <div class="col-lg-9 col-md-6">
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        <div class="color_1">Poderes/Mandatos</div>
+                      </h4>
+                          <p>• Certificación de documentos y ratificación de firmas.</p>
+                          <p>• Rectificación de inscripciones o anotaciones de propiedad.</p>
+                          <p>• Anotación de regímenes matrimoniales.</p>
+                    </div>
+                  </div>
+                </div>
+              <!-- </div> -->
+
+
+              <div class="row">
+                <div class="col-lg-3 col-md-6">
+                  <div class="card card-plain">
+                    <div class="face face1">
+                    <div class="content ">
+                        <img class="img rounded imagen" src="assets/img/118/high-angle-woman-office-working.jpg">
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+                <div class="col-lg-9 col-md-6">
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        <div class="color_1">Capitulaciones matrimoniales, disoluciones de sociedad conyugal</div>
+                      </h4>
+                          <p>• Acuerdos matrimoniales y terminaciones de la sociedad conyugal.</p>
+                          <p>• Procedimientos a través de jurisdicción voluntaria en asuntos familiares y civiles.</p>
+                          <p>• Declaración de hechos.</p>
+                          <p>• Procedimiento notarial en diligencias para identificar personas físicas.</p>
+                    </div>
+                  </div>
+                </div>
+              <!-- </div> -->
+
+              <div class="row">
+                <div class="col-lg-3 col-md-6">
+                  <div class="card card-plain">
+                    <div class="face face1">
+                    <div class="content ">
+                        <img class="img rounded imagen" src="assets/img/118/high-angle-woman-office-working.jpg">
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+                <div class="col-lg-9 col-md-6">
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        <div class="color_1">Consultoría legal en materia:</div>
+                      </h4>
+                          <p>• Civil</p>
+                          <p>• Familiar</p>
+                          <p>• Agrario</p>
+                          <p>• Mediación</p>
+                          <p>• Registral</p>
+                          <p>• Fiscal</p>
+                    </div>
+                  </div>
+                </div>
+              <!-- </div> -->
+
+
+            </div>
+                
+            </div>
+          </div>
+      </div>
+      <!--     *********    END BLOGS 5      *********      -->
+
+
+<!-- ------------------------------------- -->
+
+      {{-- <!--     *********    END BLOGS 5  NUEVO OPCION    *********      -->
+      <div class="blogs-5">
+        <!-- <div class="container"> -->
+          <div class="row">
+            <div class="col-md-11 ml-auto mr-auto">
+              <h2 class="title">Servicios</h2>
+              <div class="row">
+
+
+                <div class="col-lg-2 col-md-6">
+                  <div class="card card-blog card-plain">
+                    <!-- <div class="card-image"> -->
+                    <div class="face face1">
+                    <div class="content ">
+                      <!-- <a href="javascript:;"> -->
+                        <img class="img rounded" src="assets/img/118/unrecognizable-man-filling-application-form.jpg">
+                      <!-- </a> -->
+                    </div>
+                    </div>
+
+                    <div class="card-body">
+                      <!-- <h6 class="category text-primary">Features</h6> -->
+                      <h4 class="card-title">
+                        <div class="color_1">Contratos, traslativos de dominio</div>
+                      </h4>
+                      <!-- <p class="card-description">
+                        As near as we can tell, this guy must have thought he was going over backwards and tapped the rear...
+                      </p> -->
+                          <p>• Compraventas, donaciones, dación en pago, adjudicaciones, permutas, prescripciones</p> 
+                          <p>• Fideicomisos traslativos de dominio, y en garantía</p>
+                          <p>• Hipotecas, mutuos, cancelaciones de hipoteca</p>
+                          <p>• Arrendamientos convenios transaccionales servidumbres</p>
+                          <p>• Divisiones, uniones, urbanizaciones, cambios de nomenclatura y rectificaciones de medidas</p>
+                          <p>• Régimen de propiedad en condominio</p>
+                          <p>• Permutas, prescripciones y servidumbres</p>
+                      <!-- <div class="card-footer">
+                        <div class="author">
+                          <img src="assets/img/p10.jpg" alt="..." class="avatar img-raised">
+                          <span>Mike John</span>
+                        </div>
+                        <div class="stats stats-right">
+                          <i class="tim-icons icon-watch-time"></i> 5 min read
+                        </div>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                  <div class="card card-blog card-plain">
+                    <!-- <div class="card-image"> -->
+                    <div class="face face1">
+                      <div class="content ">
+                      <!-- <a href="javascript:;"> -->
+                        <img class="img rounded" src="assets/img/118/high-angle-woman-office-working.jpg">
+                      <!-- </a> -->
+                    </div>
+                    </div>
+                    <div class="card-body">
+                      <!-- <h6 class="category text-primary">Features</h6> -->
+                      <h4 class="card-title">
+                        <div class="color_1">Sociedades, mercantiles</div>
+                      </h4>
+                      <p>Constituciones</p>
+                          <p>• Actas de asambleas (ordinaria y extraordinaria)</p>
+                          <p>• Protocolizaciones</p>
+                          <p>• Ventas de acciones</p>
+                          <p>• Fusiones y disoluciones de sociedades</p>
+                      <!-- <p class="card-description">
+                        As near as we can tell, this guy must have thought he was going over backwards and tapped the rear...
+                      </p> -->
+                      <!-- <div class="card-footer">
+                        <div class="author">
+                          <img src="assets/img/p10.jpg" alt="..." class="avatar img-raised">
+                          <span>Mike John</span>
+                        </div>
+                        <div class="stats stats-right">
+                          <i class="tim-icons icon-watch-time"></i> 5 min read
+                        </div>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-lg-2 col-md-6">
+                  <div class="card card-blog card-plain">
+                    <!-- <div class="card-image"> -->
+                    <div class="face face1">
+                      <div class="content ">
+                      <!-- <a href="javascript:;"> -->
+                        <img class="img rounded" src="assets/img/118/high-angle-woman-office-working.jpg">
+                      <!-- </a> -->
+                    </div>
+                    </div>
+                    <div class="card-body">
+                      <!-- <h6 class="category text-primary">Features</h6> -->
+                      <h4 class="card-title">
+                        <div class="color_1">Testamentos</div>
+                      </h4>
+                      <!-- <p class="card-description">
+                        As near as we can tell, this guy must have thought he was going over backwards and tapped the rear...
+                      </p> -->
+                          <p>• Tramitación de sucesiones</p>
+                          <p>• Denuncias de sucesiones testamentarias e intestadas</p>
+                          <p>• Inventarios y avalúos proyectos de partición adjudicaciones por herencia</p>
+                      <!-- <div class="card-footer">
+                        <div class="author">
+                          <img src="assets/img/p10.jpg" alt="..." class="avatar img-raised">
+                          <span>Mike John</span>
+                        </div>
+                        <div class="stats stats-right">
+                          <i class="tim-icons icon-watch-time"></i> 5 min read
+                        </div>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                  <div class="card card-blog card-plain">
+                    <!-- <div class="card-image"> -->
+                    <div class="face face1">
+                      <div class="content ">
+                      <!-- <a href="javascript:;"> -->
+                        <img class="img rounded" src="assets/img/118/closeup-businessman-hand-sitting-desk-analyzing-document-with-data-chart-it-working-management-presentation-writing-business-strategy-entrepreneur-brainstorming-ideas-startup-office.jpg">
+                      <!-- </a> -->
+                    </div>
+                    </div>
+                    <div class="card-body">
+                      <!-- <h6 class="category text-primary">Features</h6> -->
+                      <h4 class="card-title">
+                        <div class="color_1">Poderes / mandatos</div>
+                      </h4>
+                          <p>• Certificaciones de documentos, ratificaciones de firmas</p>
+                          <p>• Rectificaciones de inscripciones o anotaciones de propiedad</p>
+                          <p>• Anotación de régimen matrimonial</p>
+                      <!-- <p class="card-description">
+                        As near as we can tell, this guy must have thought he was going over backwards and tapped the rear...
+                      </p> -->
+                      <!-- <div class="card-footer">
+                        <div class="author">
+                          <img src="assets/img/p10.jpg" alt="..." class="avatar img-raised">
+                          <span>Mike John</span>
+                        </div>
+                        <div class="stats stats-right">
+                          <i class="tim-icons icon-watch-time"></i> 5 min read
+                        </div>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                  <div class="card card-blog card-plain">
+                    <!-- <div class="card-image"> -->
+                    <div class="face face1">
+                      <div class="content ">
+                      <!-- <a href="javascript:;"> -->
+                        <img class="img rounded" src="assets/img/118/high-angle-woman-office-working.jpg">
+                      <!-- </a> -->
+                    </div>
+                    </div>
+                    <div class="card-body">
+                      <!-- <h6 class="category text-info">Animals</h6> -->
+                      <h4 class="card-title">
+                        <div class="color_1">Capitulaciones matrimoniales, disoluciones de sociedad conyugal</div>
+                      </h4>
+                          <p>• Capitulaciones matrimoniales, disoluciones de sociedad conyugal</p>
+                          <p>• Tramites por la vía de jurisdicción voluntaria en materia familiar y civil</p>
+                          <p>• Fe de hechos</p>
+                          <p>• Procedimiento notarial en diligencias de identificación de personas físicas</p>
+                      <!-- <p class="card-description">
+                        Just when you thought it was safe to turn on your television, the Discovery Channel's "Shark Week"...
+                      </p> -->
+                      <!-- <div class="card-footer">
+                        <div class="author">
+                          <img src="assets/img/johana.jpg" alt="..." class="avatar img-raised">
+                          <span>Jona Zmud</span>
+                        </div>
+                        <div class="stats stats-right">
+                          <i class="tim-icons icon-watch-time"></i> 5 min read
+                        </div>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-lg-2 col-md-6">
+                  <div class="card card-blog card-plain">
+                    <!-- <div class="card-image"> -->
+                    <div class="face face1">
+                      <div class="content ">
+                      <!-- <a href="javascript:;"> -->
+                        <img class="img rounded" src="assets/img/118/high-angle-woman-office-working.jpg">
+                      <!-- </a> -->
+                    </div>
+                    </div>
+                    <div class="card-body">
+                      <!-- <h6 class="category text-info">Animals</h6> -->
+                      <h4 class="card-title">
+                        <div class="color_1">Consultoría legal</div>
+                      </h4>
+                          <p>• Civil</p>
+                          <p>• Familiar</p>
+                          <p>• Agrario</p>
+                          <p>• Mediación</p>
+                          <p>• Registral</p>
+                          <p>• Fiscal</p>
+                      <!-- <p class="card-description">
+                        Just when you thought it was safe to turn on your television, the Discovery Channel's "Shark Week"...
+                      </p> -->
+                      <!-- <div class="card-footer">
+                        <div class="author">
+                          <img src="assets/img/johana.jpg" alt="..." class="avatar img-raised">
+                          <span>Jona Zmud</span>
+                        </div>
+                        <div class="stats stats-right">
+                          <i class="tim-icons icon-watch-time"></i> 5 min read
+                        </div>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+              
+            </div>
+          </div>
+        <!-- </div> -->
+      </div>
+      <!--     *********    END BLOGS 5      *********      --> --}}
+
+
+<!-- --------------------------------------------- -->
 
      {{-- <div class="features-3" id="nosotros">
         <div class="container-fluid">
@@ -359,7 +989,8 @@
 
 <!-- ------------------------------- -->
 
-<div class="container1" id="servicios">
+<!-- SERVICIOS OLD -->
+{{-- <div class="container1" id="servicios">
   <div class="container0">
 <h2 class="title">Servicios</h2>
 </div>
@@ -460,7 +1091,7 @@
     </div>
     
   </div>
-  </div>
+  </div> --}}
 
 
 
@@ -768,19 +1399,8 @@
                         
                         <div class="col-md-5">
                           <div class="info text-left bg-info">
-                            <h4 class="card-title">Oficina Mérida</h4>
+                            <h4 class="card-title">Notaría Publica 118</h4>
 
-                              <div class="info info-horizontal">
-                                <div class="icon">
-                                  <i class="tim-icons icon-square-pin"></i>
-                                </div>
-                                  <div class="description">
-                                    <h5 class="info-title">
-                                      Dirección:
-                                      <br>C. 18 #330 x 17, Fraccionamiento Montebello, CP: 97390, Mérida, Yucatán 
-                                    </h5>
-                                  </div>
-                              </div>
 
                               <div class="info info-horizontal">
                                 <div class="icon">
@@ -788,29 +1408,50 @@
                                 </div>
                                 <div class="description">
                                   <h5 class="info-title">
-                                    Teléfono:
-                                    <br>9999 214941
-                                    <br>9999 315797
+                                    Teléfonos:
+                                    <br>9999 449975
+                                    <br>9993 685092  
+                                    <br>9992 577212
                                   </h5>
                                 </div>
                               </div>
 
-                                <div class="info info-horizontal">
+                              <div class="info info-horizontal">
                                   <div class="icon">
                                     <i class="tim-icons icon-email-85"></i>
                                   </div>
                                   <div class="description">
                                     <h5 class="info-title">
                                       Correo electrónico:
-                                      <br>notaria108yucatan@gmail.com
+                                      <br>notaria118yucatan@gmail.com
                                     </h5>
                                   </div>
                                 </div>
+                              
+                              <br>
+                              <br>
 
-                              <div style="width: 100%"><iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=C.%2017%20331,%20Montebello,%2097113%20M%C3%A9rida,%20Yuc.&t=&z=17&ie=UTF8&iwloc=&output=embed"><a href="https://www.gps.ie/car-satnav-gps/">GPS car tracker</a></iframe></div>
+                              <h4 class="card-title">Oficina Mérida</h4>
+
+                                
+                              <div class="info info-horizontal">
+                                <div class="icon">
+                                  <i class="tim-icons icon-square-pin"></i>
+                                </div>
+                                  <div class="description">
+                                    <h5 class="info-title">
+                                      Dirección:
+                                      <br>Calle 17 número 106 por 24 y 26 colonia itzimná cp. 97100
+                                    </h5>
+                                  </div>
+                              </div>
+                              <br>
+
+                              <!-- <div style="width: 100%"><iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=C.%2017%20331,%20Montebello,%2097113%20M%C3%A9rida,%20Yuc.&t=&z=17&ie=UTF8&iwloc=&output=embed"><a href="https://www.gps.ie/car-satnav-gps/">GPS car tracker</a></iframe></div> -->
+                              <div style="width: 100%"><iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Notaria%20Publica%20118+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps tracker sport</a></iframe></div>
 
 
-                                <h4 class="card-title">Oficina Uman</h4>
+                                <h4 class="card-title">Oficina Motul</h4>
 
                                 <div class="info info-horizontal">
                                 <div class="icon">
@@ -819,12 +1460,12 @@
                                   <div class="description">
                                     <h5 class="info-title">
                                       Dirección:
-                                      <br>C. 19-A #95-A x 16-A, Colonia Centro, CP: 97113, Uman, Yucatán.
+                                      <br>Calle 46 número 297 letra "B" depto. 2, cp. 97430 motul Yucatán
                                     </h5>
                                   </div>
                               </div>
-
-                              <div class="info info-horizontal">
+                              <br>
+                              <!-- <div class="info info-horizontal">
                                 <div class="icon">
                                   <i class="tim-icons icon-mobile"></i>
                                 </div>
@@ -834,22 +1475,26 @@
                                     <br>9881 060806
                                   </h5>
                                 </div>
-                              </div>
+                              </div> -->
 
-                                <div class="info info-horizontal">
+                                <!-- <div class="info info-horizontal">
                                   <div class="icon">
                                     <i class="tim-icons icon-email-85"></i>
                                   </div>
                                   <div class="description">
                                     <h5 class="info-title">
                                       Correo electrónico:
-                                      <br>notaria108yucatan@gmail.com
+                                      <br>notaria118yucatan@gmail.com
                                     </h5>
                                   </div>
-                                </div>
-                              <div style="width: 100%"><iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=20.881534236426543,%20-89.74552609147167+(Notaria%20108)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">GPS car tracker</a></iframe></div>
+                                </div> -->
 
+
+                              <!-- <div style="width: 100%"><iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=20.881534236426543,%20-89.74552609147167+(Notaria%20108)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">GPS car tracker</a></iframe></div> -->
+
+                                <!-- <div style="width: 100%"><iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Notaria%20Publica%20118+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps tracker sport</a></iframe></div> -->
                                 
+                                  <div style="width: 100%"><iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=C.%2046%20297%20Motul+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps trackers</a></iframe></div>
                           </div>
                         </div>
                       </div>
@@ -890,20 +1535,28 @@
 
 
 document.getElementById('enviarBtn').addEventListener('click', function () {
-        Swal.fire({
-            title: '¿Estás seguro?',
-            text: '¿Quieres enviar el mensaje?',
-            icon: 'warning',
-            showCancelButton: true,
-            confirmButtonColor: '#3085d6',
-            cancelButtonColor: '#d33',
-            confirmButtonText: 'Sí, enviarlo!'
-        }).then((result) => {
-            if (result.isConfirmed) {
-                // Envía el formulario si el usuario confirma
-                document.getElementById('miFormulario').submit();
-            }
-        });
+  Swal.fire({
+  title: "Aviso",
+  html: "Su mensaje está siendo enviado",
+  timer: 9000000,
+  allowOutsideClick: false,
+  // timerProgressBar: true,
+  didOpen: () => {
+    Swal.showLoading();
+    const timer = Swal.getPopup().querySelector("b");
+    timerInterval = setInterval(() => {
+      timer.textContent = `${Swal.getTimerLeft()}`;
+    }, 100);
+  },
+  willClose: () => {
+    clearInterval(timerInterval);
+  }
+}).then((result) => {
+  /* Read more about handling dismissals below */
+  if (result.dismiss === Swal.DismissReason.timer) {
+    console.log("I was closed by the timer");
+  }
+});
     });
 
                         

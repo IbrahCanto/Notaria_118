@@ -658,23 +658,45 @@ body {
   
   
   .bi-people-fill{
-  /* color: #1d1d1d; */
-  font-size: 3em;
+  color: #ffffff;
+  font-size: 4em;
   }
   
   .bi-eye-fill{
-  /* color: #1d1d1d; */
-  font-size: 3em;
+  color: #ffffff;
+  font-size: 4em;
   }
   
   .bi-person-hearts{
-  /* color: #1d1d1d; */
-  font-size: 3em;
+  color: #ffffff;
+  font-size: 4em;
   }
+
+
+    .bi-bank{
+    color: rgb(191, 155, 48);
+    font-size: 4em;
+    }
+    
+    .bi-lightbulb-fill{
+    color: #bf9b30;
+    font-size: 4em;
+    }
+
+    .bi-heart-fill{
+      color: #bf9b30;
+      font-size: 4em;
+      }
+      
+
+    .color_1 {
+      color: #bf9b30;
+    }
+
 
   .force-opaque::placeholder {
     opacity: 1;
-    color:#FFFFFF;
+    color:rgb(109, 109, 109);
   }
 
   .footer{
@@ -690,3 +712,35 @@ body {
   .footer .nav{float:left;margin-bottom:0;padding-top:25px;list-style:none}
   
   .footer .nav,.footer .nav-item{display:block}
+
+  .form-control {
+    /* display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.5rem 0.7rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.428571; */
+    color: rgba(0, 0, 0, 0.8);
+    /* background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #cad1d7;
+    border-radius: 0.25rem;
+    box-shadow: none;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
+  }
+
+  .imagen {
+    width: 300px; /* El ancho deseado */
+    height: 310px; /* La altura deseada */
+    object-fit: cover;
+  }
+
+  .rounded {
+    border-radius: 1.25rem !important;
+  }
+  
+  .color-fondo {
+    background-color: rgb(192, 156, 48);
+    /* border-radius: 3.25rem !important; */
+  }
