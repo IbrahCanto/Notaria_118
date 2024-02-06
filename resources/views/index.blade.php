@@ -5,7 +5,7 @@
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    <link rel="Logo7" sizes="76x76" href="./assets/img/logo_108_asset.png">
-   <link rel="icon" type="image/png" href="./assets/img/test_1.png">
+   <link rel="icon" type="image/png" href="./assets/img/logo_22.png">
    <title>
     Notaría 118
    </title>
@@ -29,7 +29,7 @@
    <nav class="box navbar navbar-expand-lg  bg-primary fixed-top  nav-down">
        <div class="navbar-translate">
          <a class="navbar-brand">
-                   <span><img src="assets/img/test_1.png" alt="Bujo" width="30" height="55"></span>
+                   <span><img src="assets/img/test_33.png" alt="Bujo" width="55" height="55"></span>
          </a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-bar bar1"></span>
@@ -1315,9 +1315,9 @@
                                       <label style="color: #0f0f0f;font-weight: 500;">Nombre</label>
                                         <div class="input-group">
                                           <div class="input-group-prepend">
-                                            <span class="input-group-text"><i class="tim-icons icon-single-02"></i></span>
+                                            <span class="input-group-text"><i class="tim-icons icon-single-02" style="color: #0f0f0f;"></i></span>
                                           </div>
-                                            <input type="text" maxlength="100" class="form-control" id="Nombre" name="Nombre" value="{{old('Nombre')}}">
+                                            <input type="text" maxlength="100" class="form-control" id="Nombre" name="Nombre" value="{{old('Nombre')}}"  style="color: #0f0f0f;">
                                         </div>
                                         @error('Nombre')
                                       <p style="color:red"><strong>*{{ $message }}</strong></p>
@@ -1330,9 +1330,9 @@
                                           <label style="color: #0f0f0f;font-weight: 500;">Teléfono</label>
                                         <div class="input-group">
                                             <div class="input-group-prepend">
-                                              <span class="input-group-text"><i class="tim-icons icon-tablet-2"></i></span>
+                                              <span class="input-group-text"><i class="tim-icons icon-tablet-2"  style="color: #0f0f0f;"></i></span>
                                             </div>
-                                          <input type="number" maxlength="100" class="form-control" id="telefono" aria-describedby="emailHelp" name="Telefono" value="{{old('Telefono')}}">
+                                          <input type="number" maxlength="100" class="form-control" id="telefono" aria-describedby="emailHelp" name="Telefono" value="{{old('Telefono')}}"  style="color: #0f0f0f;">
                                         </div>
                                         @error('Telefono')
                                     <p style="color:red"><strong>*{{ $message }}</strong></p>
@@ -1347,9 +1347,9 @@
                                       <label style="color: #0f0f0f;font-weight: 500;">Correo electrónico</label>
                                     <div class="input-group">
                                       <div class="input-group-prepend">
-                                        <span class="input-group-text"><i class="tim-icons icon-email-85"></i></span>
+                                        <span class="input-group-text"><i class="tim-icons icon-email-85"  style="color: #0f0f0f;"></i></span>
                                       </div>
-                                      <input  type="email" maxlength="100" class="form-control" id="email" aria-describedby="emailHelp" name="Email" value="{{old('Email')}}">
+                                      <input  type="email" maxlength="100" class="form-control" id="email" aria-describedby="emailHelp" name="Email" value="{{old('Email')}}" style="color: #0f0f0f;">
                                     </div>
                                     @error('Email')
                                     <p style="color:red"><strong>*{{ $message }}</strong></p>
@@ -1359,7 +1359,7 @@
 
                                   <div class="form-group">
                                     <label style="color: #0f0f0f;font-weight: 500;">Mensaje</label>
-                                    <textarea  class="form-control force-opaque textarea-limited" placeholder="Máximo de 450 caracteres." rows="10" ,="" maxlength="450" name="Mensaje" >{{ old('Mensaje') }}</textarea>
+                                    <textarea  class="form-control force-opaque textarea-limited" placeholder="Máximo de 450 caracteres." rows="10" ,="" maxlength="450" name="Mensaje"  style="color: #0f0f0f;">{{ old('Mensaje') }}</textarea>
                                   </div>
                                   @error('Mensaje')
                                     <p style="color:red"><strong>*{{'El campo Comentario es requerido'}}</strong></p>
@@ -1379,7 +1379,7 @@
                                 <div class="row">
                                 <div class="col-md-8">
 
-                                  <br><br><input type="checkbox" type="radio" name="checkbox_form" id="option"> <label for="option"><span></span> <p>He leído el  <a href="./assets/doc/Notaría 104. Aviso de Privacidad.pdf" target="_Blank">Aviso de privacidad</a></p></label>
+                                  <br><br><input type="checkbox" type="radio" name="checkbox_form" id="option"> <label for="option"><span></span> <p style="color: #0f0f0f;">He leído el  <a href="./assets/doc/Notaría 104. Aviso de Privacidad.pdf" target="_Blank">Aviso de privacidad</a></p></label>
                                   @error('checkbox_form')
                                     <p style="color:red"><strong>*{{'Favor de aceptar el Aviso de Privacidad'}}</strong></p>
                                   @enderror

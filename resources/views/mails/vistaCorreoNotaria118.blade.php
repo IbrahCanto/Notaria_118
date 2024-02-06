@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-    <title>Notaría 118</title>
+    <title>Notaría Publica 118</title>
 </head>
 <body>
 <p><b>{{ $datosFormulario['Nombre'] }}</b> se puso en contacto con los siguientes datos:</p>

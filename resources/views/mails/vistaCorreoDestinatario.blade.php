@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-    <title>Notaría 118</title>
+    <title>Notaría Publica 118</title>
 </head>
 <body>
 
@@ -16,10 +16,10 @@
     <p>Gracias por elegirnos y por confiar en nosotros.</p>
     <p>Atentamente,</p>
     <p><b>Notaría Publica 118</b></p>
-    <p>Telefonos: 99994XXXXXX,  9993XXXXXX  Y  9992XXXXXX</p>
+    <p>Telefonos: 9999 449975,  9993 685092  Y  9992 577212</p>
     <p>CORREO: notaria@gmail.com</p>
     <p>HORARIOS DE ATN: 09 A 17 HORAS</p>
-    <p><b>www.notariapublica118.com</b></p>
+    <p><b>www.notaria.com</b></p>
 
 </body>
 </html>
