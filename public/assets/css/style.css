@@ -10,7 +10,7 @@ body {
   }
   
   .navbar.bg-primary {
-    background-color: #bf9b30ce!important;
+    background-color: #14633fce!important;
   }
   
   .bg-info {
@@ -81,7 +81,7 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     font-weight: 600;
-    color: #bf9b30;
+    color: #1b8857;
   }
   
   .navbar .navbar-brand {
@@ -234,7 +234,7 @@ body {
     width: 100%;
     background-position: center center;
     background-size:cover;
-    background-color: #646464;
+    background-color: #1a1a1a;
     /* height: 100%; */
     /* background-color: #cccccc;
     height: 1080px;
@@ -245,7 +245,23 @@ body {
     /* display: flex;
     align-items: center; */
   }
+
+  .hero-image_3 {
+    width: 100%;
+    background-position: center center;
+    background-size:cover;
+    background-color: #313131;
+
+  }
   
+  .hero-image_4 {
+    width: 100%;
+    background-position: center center;
+    background-size:cover;
+    background-color: #494949;
+
+  }
+
   .textEdit2{
   color: rgba(255, 255, 255, 0.999);
   font-size: 1.2em;
@@ -691,23 +707,29 @@ body {
 
 
     .bi-bank{
-    color: rgb(191, 155, 48);
+    color: #1b8857;
     font-size: 4em;
     }
     
     .bi-lightbulb-fill{
-    color: #bf9b30;
+    color: #1b8857;
     font-size: 4em;
     }
 
     .bi-heart-fill{
-      color: #bf9b30;
+      color: #1b8857;
       font-size: 4em;
       }
       
 
     .color_1 {
-      color: #bf9b30;
+      color: #1b8857;
+      /* color: #bf9b30; */
+    }
+
+    .color_2 {
+      color: #808080;
+      /* color: #bf9b30; */
     }
 
 
@@ -718,8 +740,8 @@ body {
 
   .footer{
     padding:50px 0;
-    /* border-top:2px solid #bf9b30; */
-    border-top: .3rem ridge #bf9b30;
+    /* border-top:2px solid #14633f; */
+    border-top: .3rem ridge #14633f;
     background:radial-gradient(ellipse at bottom,#2c2c2c 10%,#000000 90%);
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
   }
@@ -754,8 +776,8 @@ body {
   }
 
   .imagen_logo {
-    width: 280px; /* El ancho deseado */
-    height: 350px; /* La altura deseada */
+    width: 1000; /* El ancho deseado */
+    height: 790; /* La altura deseada */
     /* object-fit: cover; */
   }
 
@@ -766,4 +788,89 @@ body {
   .color-fondo {
     background-color: rgb(192, 156, 48);
     /* border-radius: 3.25rem !important; */
+  }
+
+  span {
+   color: #fa1f1f; 
+   font-size: .9em;
+  }
+
+  .btn-primary {
+    color: #ffffff;
+    background-color: #287451;
+    border-color: #287451;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+  
+  .btn-primary:hover {
+    color: #ffffff;
+    background-color: #0f5f3b;
+    border-color: #0f7c4b;
+  }
+  
+  .btn-primary:focus,
+  .btn-primary.focus {
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 0 rgba(230, 105, 210, 0.5);
+  }
+  
+  .btn-primary.disabled,
+  .btn-primary:disabled {
+    color: #ffffff;
+    background-color: #287451;
+    border-color: #287451;
+  }
+  
+  .btn-primary:not(:disabled):not(.disabled):active,
+  .btn-primary:not(:disabled):not(.disabled).active,
+  .show>.btn-primary.dropdown-toggle {
+    color: #ffffff;
+    background-color: #0f7c4b;
+    border-color: #115f3c;
+  }
+  
+  .btn-primary:not(:disabled):not(.disabled):active:focus,
+  .btn-primary:not(:disabled):not(.disabled).active:focus,
+  .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0 rgba(13, 124, 74, 0.5);
+  }
+
+  /* --------------------- */
+
+  .bg_2 {
+    color: #dddddd;
+    font-weight:bold;
+    /* background-color: #00725d; */
+    /* padding: 20px; */
+    /* border-radius: 30px; */
+    /* box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2); */
+  }
+  .bg_2:hover {
+    color: #ffffff;
+    font-weight:bold;
+    /* background-color: #03a38b; */
+    /* padding: 10px;
+    border-radius: 20px; */
+  }
+
+  .space_1 {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .header-filter:before {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    top: 0;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.438);
+  }
+
+  /* -------------------- */
+
+  .shadow_font {
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
   }

@@ -5,9 +5,9 @@
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    <link rel="Logo7" sizes="76x76" href="./assets/img/logo_108_asset.png">
-   <link rel="icon" type="image/png" href="./assets/img/logo_22.png">
+   <link rel="icon" type="image/png" href="./assets/img/Logo_118_mini_2.png">
    <title>
-    Notaría 118
+    Notaría Publica 118
    </title>
 
    <!-- Nucleo Icons -->
@@ -19,6 +19,8 @@
 
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
+   <!-- <link href="./assets/css/ct-paper.css" rel="stylesheet" /> -->
+
    <link href="./assets/css/style.css" rel="stylesheet" />
 
 
@@ -29,7 +31,7 @@
    <nav class="box navbar navbar-expand-lg  bg-primary fixed-top  nav-down">
        <div class="navbar-translate">
          <a class="navbar-brand">
-                   <span><img src="assets/img/test_33.png" alt="Bujo" width="55" height="55"></span>
+                   <span><img src="assets/img/Logo_118_mini.png" alt="Bujo" width="66" height="54"></span>
          </a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-bar bar1"></span>
@@ -87,14 +89,15 @@
      <div class="cd-section" id="inicio">
        <div class="header header-1">
          <div class="page-header header-filter">
-           <div class="page-header-image" style="background-image: url('assets/img/img_1.jpg');"></div>
+           <div class="page-header-image" style="background-image: url('assets/img/background_118.jpg');"></div>
            <!-- <div class="page-header-image color-fondo"></div> -->
            <div class="container">
              <div class="row">
              <div class="col-lg-3 col-md-12 ml-auto mt-3">
                </div>
-             <div class="col-lg-3 col-md-12 ml-auto mt-6">
-                   <img class="imagen_logo" src="assets\img\test_1.png">
+             <div class="col-lg-6 col-md-12 text-center ml-auto mt-6">
+                    <img class="imagen_logo" src="assets\img\Logo_118.png">
+                    <h3 class="description shadow_font">"Notaría de confianza: Garantizamos tranquilidad jurídica, tu respaldo legal sin preocupaciones."</h3>
                </div>
              <div class="col-lg-3 col-md-12 ml-auto mt-3">
                <!-- <div class="col-lg-4 col-md-7 mr-auto text-left mt-4"> -->
@@ -183,7 +186,7 @@
 
 <!-- <hr class="my-4"> -->
 
-<br><br>
+<!-- <br><br> -->
 
 {{-- <div class="cd-section" id="nosotros">
 <Center><h3 class="title" style="font-weight: bold">Nosotros</h3></Center><br>
@@ -291,7 +294,10 @@
 <!-- ------------------------------ -->
 
       <!--     *********     FEATURES 3      *********      -->
+      <div class="hero-image_2">
+
       <div class="features-3" id="nosotros">
+
         <div class="container">
           <div class="row">
             <div class="col-md-12 mr-auto ml-auto">
@@ -371,6 +377,9 @@
           </div>
         </div>
       </div>
+
+      </div>
+
       <!--     *********    END FEATURES 3      *********      -->
 
 <!-- ---------------------------------- -->
@@ -478,6 +487,8 @@
 <!-- --------------------------------- -->
 
       <!--     *********    END BLOGS 5      *********      -->
+      <div class="hero-image_3">
+
       <div class="blogs-5" id="servicios">
         <div class="container">
           <div class="row">
@@ -548,8 +559,7 @@
                   <div class="card card-plain">
                     <div class="face face1">
                     <div class="content ">
-                        <img class="img rounded imagen" src="assets/img/118/unrecognizable-man-filling-application-form.jpg">
-
+                        <img class="img rounded imagen" src="assets/img/118/business-people-shaking-hands-together.jpg">
                     </div>
                   </div>
                 </div>
@@ -574,7 +584,7 @@
                   <div class="card card-plain">
                     <div class="face face1">
                     <div class="content ">
-                        <img class="img rounded imagen" src="assets/img/118/high-angle-woman-office-working.jpg">
+                        <img class="img rounded imagen" src="assets/img/118/mid-adult-s.jpg">
                     </div>
                   </div>
                 </div>
@@ -625,7 +635,7 @@
                   <div class="card card-plain">
                     <div class="face face1">
                     <div class="content ">
-                        <img class="img rounded imagen" src="assets/img/118/high-angle-woman-office-working.jpg">
+                        <img class="img rounded imagen" src="assets/img/118/family_2.jpg">
                     </div>
                   </div>
                 </div>
@@ -650,7 +660,7 @@
                   <div class="card card-plain">
                     <div class="face face1">
                     <div class="content ">
-                        <img class="img rounded imagen" src="assets/img/118/high-angle-woman-office-working.jpg">
+                        <img class="img rounded imagen" src="assets/img/118/sign-here-please.jpg">
                     </div>
                   </div>
                 </div>
@@ -672,11 +682,54 @@
                 </div>
               <!-- </div> -->
 
+              <div class="row">
+                <div class="col-lg-3 col-md-6">
+                  <div class="card card-plain">
+                    <div class="face face1">
+                    <div class="content ">
+                        <img class="img rounded imagen" src="assets/img/118/business-meeting-restaurant.jpg">
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+                <div class="col-lg-9 col-md-6">
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        <div class="color_1">Servicios de Mediación: </div>
+
+                        <p class="card-description" style="font-size:.9em;">
+                          Ofrecemos servicios de Mediación por el cual, las partes en conflicto pueden comunicarse y negociar, para encontrar de manera amigable y satisfactoria la solución legal a su problema de carácter Civil-Mercantil o Familiar.
+                        </p>
+                      </h4>
+
+                            <div class="color_2" style="font-weight:bold;  font-size:1.1em;">Mediación de Carácter Familiar:</div>
+                            <p >• Elaboración de convenios reguladores del divorcio o separación</p>
+                            <p>• Pensión alimenticia, guarda, custodia, visitas y convivencias</p>
+                            <p>• Cuestiones patrimoniales derivadas de un Juicio Sucesorio, con declaratoria de herederos</p>
+                            <p>• Derivados de la disolución de la sociedad conyugal</p>
+                            <p>• Acuerdos para la Liquidación de la Sociedad en Convivencia</p>
+                            <br>
+                            <div class="color_2" style="font-weight:bold;  font-size:1.1em;">Mediación Civil-Mercantil: </div>
+                            <p>• Incumplimiento de compraventas, contratos, deudas</p>
+                            <p>• Problemas condominales y demás situaciones relacionadas con inmuebles</p>
+                            <p>• Sociedades civiles y/o mercantiles</p>
+
+                    </div>
+                  </div>
+                </div>
+              <!-- </div> -->
+
+
+
+
 
             </div>
                 
             </div>
           </div>
+      </div>
+
       </div>
       <!--     *********    END BLOGS 5      *********      -->
 
@@ -1289,9 +1342,9 @@
      </div> --}}
 
 
-          <div class="header-filter">
+          <!-- <div class="header-filter"> -->
 
-            <div class="hero-image_2">
+            <div class="hero-image_4">
 
             <div class="contactus-4" id="contactanos">
 
@@ -1305,7 +1358,11 @@
 
                       <div class="row">
                         <div class="col-md-7">
-                          <form class="p-3" action="{{route('comentatios_recibir')}}" method="POST" id="miFormulario">
+
+                        <!-- resources/views/tu_vista.blade.php -->
+
+                          <!-- <form class="p-3" action="{{route('comentatios_recibir')}}" method="POST" id="miFormulario"> -->
+                          <form id="miFormulario">
                             @csrf
 
                               <div class="card-body">
@@ -1317,11 +1374,11 @@
                                           <div class="input-group-prepend">
                                             <span class="input-group-text"><i class="tim-icons icon-single-02" style="color: #0f0f0f;"></i></span>
                                           </div>
-                                            <input type="text" maxlength="100" class="form-control" id="Nombre" name="Nombre" value="{{old('Nombre')}}"  style="color: #0f0f0f;">
+                                            <input type="text" maxlength="100" class="form-control required" id="Nombre" name="Nombre" value="{{old('Nombre')}}"  style="color: #0f0f0f;">
                                         </div>
-                                        @error('Nombre')
+                                        <!-- @error('Nombre')
                                       <p style="color:red"><strong>*{{ $message }}</strong></p>
-                                    @enderror
+                                    @enderror -->
                                     </div>
 
                                 
@@ -1332,11 +1389,11 @@
                                             <div class="input-group-prepend">
                                               <span class="input-group-text"><i class="tim-icons icon-tablet-2"  style="color: #0f0f0f;"></i></span>
                                             </div>
-                                          <input type="number" maxlength="100" class="form-control" id="telefono" aria-describedby="emailHelp" name="Telefono" value="{{old('Telefono')}}"  style="color: #0f0f0f;">
+                                          <input type="number" maxlength="100" class="form-control required" id="telefono" aria-describedby="emailHelp" name="Telefono" value="{{old('Telefono')}}"  style="color: #0f0f0f;">
                                         </div>
-                                        @error('Telefono')
+                                        <!-- @error('Telefono')
                                     <p style="color:red"><strong>*{{ $message }}</strong></p>
-                                  @enderror
+                                  @enderror -->
                                       </div>
                                     </div>
                                   </div>
@@ -1349,29 +1406,33 @@
                                       <div class="input-group-prepend">
                                         <span class="input-group-text"><i class="tim-icons icon-email-85"  style="color: #0f0f0f;"></i></span>
                                       </div>
-                                      <input  type="email" maxlength="100" class="form-control" id="email" aria-describedby="emailHelp" name="Email" value="{{old('Email')}}" style="color: #0f0f0f;">
+                                      <input  type="email" maxlength="100" class="form-control required" id="email" aria-describedby="emailHelp" name="Email" value="{{old('Email')}}" style="color: #0f0f0f;">
                                     </div>
-                                    @error('Email')
+                                    <!-- @error('Email')
                                     <p style="color:red"><strong>*{{ $message }}</strong></p>
-                                  @enderror
+                                  @enderror -->
                                   </div>
 
 
                                   <div class="form-group">
                                     <label style="color: #0f0f0f;font-weight: 500;">Mensaje</label>
-                                    <textarea  class="form-control force-opaque textarea-limited" placeholder="Máximo de 450 caracteres." rows="10" ,="" maxlength="450" name="Mensaje"  style="color: #0f0f0f;">{{ old('Mensaje') }}</textarea>
+                                    <textarea  class="form-control force-opaque textarea-limited required" placeholder="Máximo de 450 caracteres." rows="10" ,="" maxlength="450" name="Mensaje"  style="color: #0f0f0f;">{{ old('Mensaje') }}</textarea>
                                   </div>
-                                  @error('Mensaje')
+                                  <!-- @error('Mensaje')
                                     <p style="color:red"><strong>*{{'El campo Comentario es requerido'}}</strong></p>
-                                  @enderror
+                                  @enderror -->
 
                                 <div class="row">
                                   <div class="col-md-8">
-                                    <input class="check-input" type="radio" name="Tipo_de_Informacion" id="Radiostipo1" value="Cita_para_Asesoría_Legal"> Cita para asesoría legal
-                                    <input class="check-input" type="radio" name="Tipo_de_Informacion" id="Radiostipo2" value="Información_de_Servicios"> Información de servicios
-                                    @error('Tipo_de_Informacion')
+                                  <input class="check-input required" type="radio" name="Tipo_de_Informacion" id="Radiostipo1" value="Cita_para_Asesoría_Legal" required> Cita para asesoría legal
+                                  <input class="check-input required" type="radio" name="Tipo_de_Informacion" id="Radiostipo2" value="Información_de_Servicios"> Información de servicios
+
+
+                                    <!-- <input class="check-input" type="radio" name="Tipo_de_Informacion" id="Radiostipo1" value="Cita_para_Asesoría_Legal"> Cita para asesoría legal -->
+                                    <!-- <input class="check-input" type="radio" name="Tipo_de_Informacion" id="Radiostipo2" value="Información_de_Servicios"> Información de servicios -->
+                                    <!-- @error('Tipo_de_Informacion')
                                       <p style="color:red"><strong>*{{'Marque una opcion'}}</strong></p>
-                                    @enderror
+                                    @enderror -->
                                   </div>
                                   </div>
 
@@ -1379,19 +1440,20 @@
                                 <div class="row">
                                 <div class="col-md-8">
 
-                                  <br><br><input type="checkbox" type="radio" name="checkbox_form" id="option"> <label for="option"><span></span> <p style="color: #0f0f0f;">He leído el  <a href="./assets/doc/Notaría 104. Aviso de Privacidad.pdf" target="_Blank">Aviso de privacidad</a></p></label>
-                                  @error('checkbox_form')
+                                  <br><br>
+                                  <input class="required" type="checkbox" type="radio" name="checkbox_form" id="option"> <label for="option"><span></span> <p style="color: #0f0f0f;">He leído el  <a href="./assets/doc/Notaría 104. Aviso de Privacidad.pdf" target="_Blank">Aviso de privacidad</a></p></label>
+                                  <!-- @error('checkbox_form')
                                     <p style="color:red"><strong>*{{'Favor de aceptar el Aviso de Privacidad'}}</strong></p>
-                                  @enderror
+                                  @enderror -->
                                 </div>
 
 
                                   <div class="col-md-4">
-                                    <button type="submit" class="btn btn-primary btn-round pull-right" onClick="this.form.submit(); this.disabled=true; this.value='Sending…'; this.form.reset()"  id="enviarBtn">Enviar mensaje</button>
+                                    <!-- <button type="submit" class="btn btn-primary btn-round pull-right" onClick="this.form.submit(); this.disabled=true; this.value='Sending…'; this.form.reset()"  id="enviarBtn">Enviar mensaje</button> -->
+                                    <button type="button" class="btn btn-primary btn-round pull-right" id="enviarFormulario">Enviar mensaje</button>
+
                                   </div>
                                 </div>
-
-
 
                               </div>
                           </form>
@@ -1399,7 +1461,7 @@
                         
                         <div class="col-md-5">
                           <div class="info text-left bg-info">
-                            <h4 class="card-title">Notaría Publica 118</h4>
+                            <!-- <h4 class="card-title">Notaría Publica 118</h4> -->
 
 
                               <div class="info info-horizontal">
@@ -1410,8 +1472,24 @@
                                   <h5 class="info-title">
                                     Teléfonos:
                                     <br>9999 449975
-                                    <br>9993 685092  
+                                    <!-- <br>9993 685092   -->
                                     <br>9992 577212
+                                  </h5>
+                                </div>
+                              </div>
+
+                              <br>
+
+                              <div class="info info-horizontal">
+                                <div class="icon">
+                                  <i class="bi-whatsapp"></i>
+                                </div>
+                                <div class="description">
+                                  <h5 class="info-title">
+                                    Whatsapp:
+                                    <a class="bg_2" href="{{url('https://wa.me/5219993685092')}}" title="Ir a la App" target="_blank"> 
+                                      <br>9993 685092
+                                    </a>
                                   </h5>
                                 </div>
                               </div>
@@ -1431,10 +1509,11 @@
                               <br>
                               <br>
 
-                              <h4 class="card-title">Oficina Mérida</h4>
 
                                 
                               <div class="info info-horizontal">
+                              <h4 class="card-title">Oficina Mérida</h4>
+
                                 <div class="icon">
                                   <i class="tim-icons icon-square-pin"></i>
                                 </div>
@@ -1446,14 +1525,15 @@
                                   </div>
                               </div>
                               <br>
+                              <br>
 
                               <!-- <div style="width: 100%"><iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=C.%2017%20331,%20Montebello,%2097113%20M%C3%A9rida,%20Yuc.&t=&z=17&ie=UTF8&iwloc=&output=embed"><a href="https://www.gps.ie/car-satnav-gps/">GPS car tracker</a></iframe></div> -->
                               <div style="width: 100%"><iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Notaria%20Publica%20118+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps tracker sport</a></iframe></div>
 
 
+                                <div class="info info-horizontal">
                                 <h4 class="card-title">Oficina Motul</h4>
 
-                                <div class="info info-horizontal">
                                 <div class="icon">
                                   <i class="tim-icons icon-square-pin"></i>
                                 </div>
@@ -1464,6 +1544,7 @@
                                     </h5>
                                   </div>
                               </div>
+                              <br>
                               <br>
                               <!-- <div class="info info-horizontal">
                                 <div class="icon">
@@ -1504,12 +1585,28 @@
                 </div>
               </div>
 
-          </div>
+          <!-- </div> -->
         </div>
       </div>
   </div>
 </div>
 
+
+<!-- <form class="p-3" id="miFormulario">
+    @csrf
+    <button type="button" class="btn btn-primary btn-round pull-right" id="enviarBtn">Enviar mensaje</button>
+</form> -->
+
+
+
+
+         <!-- <footer class="footer">
+           <div class="container">
+
+           <br><br><br>
+           <br><br><br>
+           </div>
+         </footer> -->
 
 
          <footer class="footer">
@@ -1519,45 +1616,368 @@
            <br><br><br>
            </div>
          </footer>
+
+
+
+        {{-- <footer class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 col-md-offset-1 col-sm-9 col-xs-12">
+							<div class="row">
+								<div class="col-md-5 col-sm-6">
+									<div class="links">
+										<ul class="uppercase-links stacked-links">
+											<li>
+												<div class="txt-white">
+													NOTARÍA PUBLICA
+												</div>
+											</li>
+											<li>
+												<a class="txt-white_02" href="https://www.google.com/maps/place/INSEJUPY/@20.9696014,-89.645474,17z/data=!3m1!4b1!4m5!3m4!1s0x8f5673bf600e0c9f:0x8382bd21bcb3bedd!8m2!3d20.9695964!4d-89.6432853?hl=en" target="_blank">
+													Calle 90 No. 498 x 61 y 63 Colonia Bojórquez. Mérida, Yucatán.
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-3 col-xs-6">
+									<div class="links">
+										<ul class="uppercase-links stacked-links">
+											<li>
+												<div class="txt-white">
+													TELÉFONO:
+												</div>
+											</li>
+											<li>
+												<a class="txt-white_02" href="tel:+5219999303025">
+													800 10 800 10
+												</a>
+											</li>
+											<li>
+												<div class="txt-white_01">
+												Ext. Dirección Catastro: 53261, 53267, 53274, 53286, 53289
+												</div>
+											</li>
+											<li>
+												<div class="txt-white_01">
+												Ext. Dirección Registro Público: 53211, 53291, 53293, 53296, 53300
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-2 col-xs-6">
+									<div class="social-area">
+										<a href="https://www.facebook.com/INSEJUPY/" target="_blank" title="Facebook" class="btn btn-icon btn-fill">
+											<i class="bi-whatsapp"></i>
+										</a>
+										<a href="https://twitter.com/Insejupy" target="_blank" title="X" class="btn btn-icon btn-fill">
+											<i class="bi bi-whatsapp"></i>
+										</a>
+										<a href="https://www.instagram.com/insejupy/" target="_blank" title="Instagram" class="btn btn-icon btn-fill">
+											<i class="bi bi-instagram"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+							<hr/>
+								<div class="copyright">
+									<div class="links pull-right">
+										<ul>
+											<li>
+												<a href="mailto:insejupy@insejupy.gob.mx">
+													Contacto     
+												</a>
+											</li>
+											|
+											<li>
+												<a href="/Privacidad" target="_blank">
+													Avisos de Privacidad
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+						</div>
+					</div>
+				</div>
+			</footer> --}}
+
+
+
+
        </div>
        <!--   Core JS Files   -->
-       <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-       <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+       <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+       <script src="./assets/js/plugins/jquery.validate.js"></script>
+       <!-- <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script> -->
+       <!-- <script src="./assets/js/messages_es.min.js"></script> -->
+       <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
+
+       <!-- <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script> -->
        <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
        <script src="./assets/js/blk-design-system-pro.min.js?v=1.0.0" type="text/javascript"></script>
        <script src="./assets/js/plugins/sweetalert2.all.min.js"></script>
+
 
        @include('success')
        @include('error')
 
        <script>
 
+    // $(document).ready(function() {
+    //     $('#enviarFormulario').on('click', function() {
+    //         // Obtén los datos del formulario
+    //         var formData = $('#miFormulario').serialize();
 
-document.getElementById('enviarBtn').addEventListener('click', function () {
-  Swal.fire({
-  title: "Aviso",
-  html: "Su mensaje está siendo enviado",
-  timer: 9000000,
-  allowOutsideClick: false,
-  // timerProgressBar: true,
-  didOpen: () => {
-    Swal.showLoading();
-    const timer = Swal.getPopup().querySelector("b");
-    timerInterval = setInterval(() => {
-      timer.textContent = `${Swal.getTimerLeft()}`;
-    }, 100);
-  },
-  willClose: () => {
-    clearInterval(timerInterval);
-  }
-}).then((result) => {
-  /* Read more about handling dismissals below */
-  if (result.dismiss === Swal.DismissReason.timer) {
-    console.log("I was closed by the timer");
-  }
-});
+    //         // Envía la solicitud AJAX a tu controlador
+    //         $.ajax({
+    //             type: 'POST',
+    //             url: "{{ route('comentatios_recibir') }}",
+    //             data: formData,
+    //             success: function(response) {
+    //                 // Muestra SweetAlert con el mensaje de éxito
+    //                 Swal.fire({
+    //                     icon: 'success',
+    //                     title: 'Éxito',
+    //                     text: response.message,
+    //                 });
+    //             },
+    //             error: function(response) {
+    //                 // Muestra SweetAlert con el mensaje de error
+    //                 Swal.fire({
+    //                     icon: 'error',
+    //                     title: 'Error',
+    //                     text: 'Hubo un error al procesar el formulario.',
+    //                 });
+    //             }
+    //         });
+    //     });
+    // });
+
+    // --------
+
+    // $(document).ready(function() {
+    //     $('#miFormulario').validate();
+
+    //     $('#enviarFormulario').on('click', function() {
+    //         if ($('#miFormulario').valid()) {
+    //             enviarFormulario();
+    //         }
+    //     });
+
+    //     function enviarFormulario() {
+    //     }
+    // });
+
+// ------------
+    $(document).ready(function() {
+      
+        $("#miFormulario").validate({
+          rules: {
+            Nombre: { required: true, minlength: 2, maxlength: 50 },
+            Nif: { required: true },
+            Direccion: { required: true, minlength: 2, maxlength: 50 },
+            Email: { required: true, minlength: 4, maxlength: 100, email: true },
+            Telefono: { required: true, minlength: 2, maxlength: 50	},
+            Mensaje: { required: true, minlength: 2, maxlength: 50	},
+            Tipo_de_Informacion: { required: true },
+            checkbox_form: { required: true },
+          },
+          messages: {
+            Nombre: "El campo Nombre es obligatorio",
+            Nif: "El campo Pedido es obligatorio. Ponga el identificador de su pedido.",
+            Direccion: "El campo Dirección es obligatorio",
+            Email: "El campo Email es obligatorio y escrito correctamente",
+            Telefono: "El campo Teléfono es obligatorio",
+            Mensaje: "El campo Mensaje es obligatorio",
+            Tipo_de_Informacion: "Seleccione una opción",
+            checkbox_form: "Favor de aceptar el Aviso de Privacidad",
+          },
+          errorElement : 'span'
+        });
+
+        $('#enviarFormulario').on('click', function() {
+          if ($('#miFormulario').valid()) {
+            Swal.fire({
+                title: '¿Estás seguro?',
+                text: 'Su mensaje será enviado',
+                icon: 'question',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Sí, enviar',
+                cancelButtonText: 'Cancelar',
+            }).then((result) => {
+              if (result.isConfirmed) {
+
+                enviarFormulario();
+
+                Swal.fire({
+                  title: 'Enviando mensaje...',
+                  allowOutsideClick: false,
+                  showConfirmButton: false,
+                  onBeforeOpen: () => {
+                      Swal.showLoading();
+                  }
+                });
+
+              } 
+            });
+          } else {
+          }
+        });
+
+        
+        function enviarFormulario() {
+            var formData = $('#miFormulario').serialize();
+
+            $.ajax({
+                type: 'POST',
+                url: "{{ route('comentatios_recibir') }}",
+                data: formData,
+                success: function(response) {
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Éxito',
+                        text: response.message,
+                    });
+                  $('#miFormulario')[0].reset()
+                  return false;
+
+                },
+                error: function(response) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Error',
+                        text: 'Hubo un error al procesar el formulario.',
+                    });
+                }
+            });
+        }
     });
+
+// ---------
+
+    // $(document).ready(function() { 
+    //     $('#miFormulario').submit(function(event) {
+    //         // Evita el envío real del formulario
+    //         event.preventDefault();
+
+    //         // Muestra un Swal.fire de "espera"
+    //         Swal.fire({
+    //             title: 'Enviando mensaje...',
+    //             allowOutsideClick: false,
+    //             onBeforeOpen: () => {
+    //                 Swal.showLoading();
+    //             }
+    //         });
+
+    //         // Envía el formulario usando AJAX
+    //         $.ajax({
+    //             url: $(this).attr('action'),
+    //             type: $(this).attr('method'),
+    //             data: $(this).serialize(),
+    //             success: function(response) {
+    //                 // Cierra el Swal.fire de "espera"
+    //                 Swal.close();
+
+    //                 // Muestra un Swal.fire de éxito
+    //                 Swal.fire({
+    //                     icon: 'success',
+    //                     title: 'Mensaje enviado con éxito!',
+    //                     showConfirmButton: false,
+    //                     timer: 1500
+    //                 });
+
+    //                 // Restablece o borra los valores de los campos del formulario
+    //                 $('#miFormulario')[0].reset();
+    //             },
+    //             error: function(error) {
+    //                 // Cierra el Swal.fire de "espera"
+    //                 Swal.close();
+
+    //                 // Muestra un Swal.fire de error
+    //                 Swal.fire({
+    //                     icon: 'error',
+    //                     title: 'Error al enviar el mensaje. Inténtalo de nuevo.',
+    //                     showConfirmButton: true
+    //                 });
+    //             }
+    //         });
+    //     });
+    // });
+
+
+// ------------------------
+
+// Swal.fire({
+//   title: 'Ajax request example',
+//   text: 'Submit to run ajax request',
+//   icon: 'info',
+//   showCancelButton: true,
+//   showLoaderOnConfirm: true,
+//   preConfirm: function() {
+//     return new Promise(function(resolve, reject) {
+//       // here should be AJAX request
+//       setTimeout(function() {
+//         resolve();
+//       }, 1000);
+//     });
+//   },
+// }).then(function() {
+//   Swal.fire('Ajax request finished!');
+// });
+
+// document.getElementById('enviarBtn').addEventListener('click', function () {
+//   Swal.fire({
+//   title: "Aviso",
+//   html: "Su mensaje está siendo enviado",
+//   timer: 9000000,
+//   allowOutsideClick: false,
+//   // timerProgressBar: true,
+//   didOpen: () => {
+//     Swal.showLoading();
+//     const timer = Swal.getPopup().querySelector("b");
+//     timerInterval = setInterval(() => {
+//       timer.textContent = `${Swal.getTimerLeft()}`;
+//     }, 100);
+//   },
+//   willClose: () => {
+//     clearInterval(timerInterval);
+//   }
+// }).then((result) => {
+//   /* Read more about handling dismissals below */
+//   if (result.dismiss === Swal.DismissReason.timer) {
+//     console.log("I was closed by the timer");
+//   }
+// });
+//     });
+
+
+    // $(document).ready(function () {
+    //     $('#miFormulario').submit(function (e) {
+    //         e.preventDefault();
+
+    //         $.ajax({
+    //             type: 'POST',
+    //             url: "{{ route('comentatios_recibir') }}",
+    //             data: $('#miFormulario').serialize(),
+    //             success: function (data) {
+    //                 alert(data.success); 
+    //             },
+    //             error: function (data) {
+    //                 if (data.responseJSON && data.responseJSON.error) {
+    //                     alert(data.responseJSON.error);
+    //                 } else {
+    //                     alert('Hubo un error al enviar el formulario.');
+    //                 }
+    //             }
+    //         });
+    //     });
+    // });
+
 
                         
 $('div.checkbox-group.required :checkbox:checked').length > 0
