@@ -95,7 +95,8 @@
              <div class="row">
              <div class="col-lg-3 col-md-12 ml-auto mt-3">
                </div>
-             <div class="col-lg-6 col-md-12 text-center ml-auto mt-6">
+             <!-- <div class="col-lg-6 col-md-12 text-center ml-auto mt-6"> -->
+             <div class="col-lg-5 col-md-12 text-center ml-auto mt-6">
                     <img class="imagen_logo" src="assets\img\Logo_118.png">
                     <h3 class="description shadow_font">"Notaría de confianza: Garantizamos tranquilidad jurídica, tu respaldo legal sin preocupaciones."</h3>
                </div>
