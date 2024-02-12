@@ -22,12 +22,12 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('test', function () {
-    return view('test');
-});
+// Route::get('test', function () {
+//     return view('test');
+// });
 
 
-Route::post('table_test_cat/{nombre?}', [PagesController::class, 'recibir'])->name('comentatios_recibir');
+Route::post('registro_mensaje/{nombre?}', [PagesController::class, 'recibir'])->name('comentatios_recibir');
 
 // Route::get('comentarios_validacion/{nombre?}',  function () {
 //     return view('comentarios_validacion',[

@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class TableTests extends Migration
+class RegistroMensajes extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,12 @@ class TableTests extends Migration
      */
     public function up()
     {
-        Schema::create('table_tests', function (Blueprint $table) {
+        Schema::create('registro_mensajes', function (Blueprint $table) {
             $table->id();
-            $table->string('Nombre');
-            $table->string('Email');
-            $table->string('Telefono');
-            $table->string('Mensaje');
+            $table->string('Nombre', 64);
+            $table->string('Email', 64);
+            $table->string('Telefono', 64);
+            $table->string('Mensaje', 450);
             $table->string('Tipo_de_Informacion');
             $table->string('checkbox_form');
             $table->timestamp('fecha')->useCurrent();
@@ -33,7 +33,7 @@ class TableTests extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('table_tests');
+        Schema::dropIfExists('registro_mensajes');
     }
 }
 

@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Mail\correoNotaria118;
 use App\Mail\correoDestinatario;
-use App\Models\table_test;
+use App\Models\registro_mensaje;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Mail;
@@ -26,13 +26,13 @@ class PagesController extends Controller
         'checkbox_form' =>'required'
     ]);
 
-    $table_test_reg = new table_test();
-    $table_test_reg->Nombre = $request->Nombre;
-    $table_test_reg->Email = $request->Email;
-    $table_test_reg->Telefono = $request->Telefono;
-    $table_test_reg->Mensaje = $request->Mensaje;
-    $table_test_reg->Tipo_de_Informacion = $request->Tipo_de_Informacion;
-    $table_test_reg->checkbox_form = $request->checkbox_form;
+    $registro_mensaje_reg = new registro_mensaje();
+    $registro_mensaje_reg->Nombre = $request->Nombre;
+    $registro_mensaje_reg->Email = $request->Email;
+    $registro_mensaje_reg->Telefono = $request->Telefono;
+    $registro_mensaje_reg->Mensaje = $request->Mensaje;
+    $registro_mensaje_reg->Tipo_de_Informacion = $request->Tipo_de_Informacion;
+    $registro_mensaje_reg->checkbox_form = $request->checkbox_form;
 
     if ($validator->fails()) {
         return back()->with('error', 'Favor de revisar su mensaje')
@@ -40,12 +40,12 @@ class PagesController extends Controller
                     ->withInput();
     }
 
-    $table_test_reg->save();
+    $registro_mensaje_reg->save();
 
     if ($validator->passes()) {
 
         $correoDestino1 = 'icafurry@gmail.com';
-        $correoDestino2 = $table_test_reg->Email;
+        $correoDestino2 = $registro_mensaje_reg->Email;
         $datosFormulario = [
             'Nombre' => $request->Nombre,
             'Email' => $request->Email,

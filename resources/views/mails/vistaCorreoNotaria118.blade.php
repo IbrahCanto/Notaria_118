@@ -12,7 +12,16 @@
 <p>Email: {{ $datosFormulario['Email'] }}</p>
 <p>Telefono: {{ $datosFormulario['Telefono'] }}</p>
 <p>Mensaje: {{ $datosFormulario['Mensaje'] }}</p>
-<p>Informacion requerida: {{ $datosFormulario['Tipo_de_Informacion'] }}</p>
+<!-- <p>Informacion requerida: {{ $datosFormulario['Tipo_de_Informacion'] }}</p> -->
+
+@if ($datosFormulario['Tipo_de_Informacion'] === 'Cita_para_Asesoría_Legal')
+    <p>Informacion requerida: Cita para Asesoría Legal</p>
+@elseif ($datosFormulario['Tipo_de_Informacion'] === 'Información_de_Servicios')
+    <p>Informacion requerida: Información de Servicios</p>
+@else
+    <p>No se pudo determinar el tipo de información solicitada.</p>
+@endif
+
 
 </body>
 </html>

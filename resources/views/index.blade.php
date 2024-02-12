@@ -15,11 +15,12 @@
    <!-- CSS Files -->
    <link href="./assets/css/blk-design-system-pro.css?v=1.0.0" rel="stylesheet" />
 
-   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
-
+   <!-- <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'> -->
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
    <!-- <link href="./assets/css/ct-paper.css" rel="stylesheet" /> -->
+   <link href="./assets/css/sweetalert2.min.css" rel="stylesheet" />
+   <!-- <link href="./assets/css/bootstrap-icons.css" rel="stylesheet" /> -->
 
    <link href="./assets/css/style.css" rel="stylesheet" />
 
@@ -1371,12 +1372,19 @@
                                   <div class="row">
                                     <div class="col-md-6">
                                       <label style="color: #0f0f0f;font-weight: 500;">Nombre</label>
-                                        <div class="input-group">
+                                        <!-- <div class="input-group">
                                           <div class="input-group-prepend">
                                             <span class="input-group-text"><i class="tim-icons icon-single-02" style="color: #0f0f0f;"></i></span>
                                           </div>
                                             <input type="text" maxlength="100" class="form-control required" id="Nombre" name="Nombre" value="{{old('Nombre')}}"  style="color: #0f0f0f;">
-                                        </div>
+                                        </div> -->
+
+                                        <!-- <div class="input-group"> -->
+                                          <input type="text" maxlength="100" class="form-control required" id="Nombre" name="Nombre" value="{{old('Nombre')}}" style="color: #0f0f0f;">
+                                        <span id="errorNombre" class="error-message"></span> 
+                                      <!-- </div> -->
+
+
                                         <!-- @error('Nombre')
                                       <p style="color:red"><strong>*{{ $message }}</strong></p>
                                     @enderror -->
@@ -1386,12 +1394,18 @@
                                     <div class="col-md-6">
                                       <div class="form-group">
                                           <label style="color: #0f0f0f;font-weight: 500;">Teléfono</label>
-                                        <div class="input-group">
+
+                                        <!-- <div class="input-group">
                                             <div class="input-group-prepend">
                                               <span class="input-group-text"><i class="tim-icons icon-tablet-2"  style="color: #0f0f0f;"></i></span>
                                             </div>
                                           <input type="number" maxlength="100" class="form-control required" id="telefono" aria-describedby="emailHelp" name="Telefono" value="{{old('Telefono')}}"  style="color: #0f0f0f;">
-                                        </div>
+                                        </div> -->
+
+                                          <input type="number" maxlength="100" class="form-control required" id="telefono" aria-describedby="emailHelp" name="Telefono" value="{{old('Telefono')}}"  style="color: #0f0f0f;">
+                                          <span id="errorTelefono" class="error-message"></span> 
+                                        
+                                        
                                         <!-- @error('Telefono')
                                     <p style="color:red"><strong>*{{ $message }}</strong></p>
                                   @enderror -->
@@ -1403,30 +1417,51 @@
 
                                   <div class="form-group">
                                       <label style="color: #0f0f0f;font-weight: 500;">Correo electrónico</label>
-                                    <div class="input-group">
+                                    <!-- <div class="input-group">
                                       <div class="input-group-prepend">
                                         <span class="input-group-text"><i class="tim-icons icon-email-85"  style="color: #0f0f0f;"></i></span>
                                       </div>
                                       <input  type="email" maxlength="100" class="form-control required" id="email" aria-describedby="emailHelp" name="Email" value="{{old('Email')}}" style="color: #0f0f0f;">
-                                    </div>
+                                    </div> -->
+
+                                      <input  type="email" maxlength="100" class="form-control required" id="email" aria-describedby="emailHelp" name="Email" value="{{old('Email')}}" style="color: #0f0f0f;">
+                                      <span id="errorEmail" class="error-message"></span> 
+
+
                                     <!-- @error('Email')
                                     <p style="color:red"><strong>*{{ $message }}</strong></p>
                                   @enderror -->
                                   </div>
 
 
-                                  <div class="form-group">
+                                  <!-- <div class="form-group">
                                     <label style="color: #0f0f0f;font-weight: 500;">Mensaje</label>
                                     <textarea  class="form-control force-opaque textarea-limited required" placeholder="Máximo de 450 caracteres." rows="10" ,="" maxlength="450" name="Mensaje"  style="color: #0f0f0f;">{{ old('Mensaje') }}</textarea>
-                                  </div>
+                                  </div> -->
+
+                                  <!-- <div class="form-group"> -->
+                                    <label style="color: #0f0f0f;font-weight: 500;">Mensaje</label>
+                                    <textarea  class="form-control force-opaque textarea-limited required" placeholder="Máximo de 450 caracteres." rows="10" ,="" maxlength="450" name="Mensaje"  style="color: #0f0f0f;">{{ old('Mensaje') }}</textarea>
+                                    <span id="errorMensaje" class="error-message"></span> 
+                                  <!-- </div> -->
+
+
                                   <!-- @error('Mensaje')
                                     <p style="color:red"><strong>*{{'El campo Comentario es requerido'}}</strong></p>
                                   @enderror -->
 
                                 <div class="row">
                                   <div class="col-md-8">
-                                  <input class="check-input required" type="radio" name="Tipo_de_Informacion" id="Radiostipo1" value="Cita_para_Asesoría_Legal" required> Cita para asesoría legal
-                                  <input class="check-input required" type="radio" name="Tipo_de_Informacion" id="Radiostipo2" value="Información_de_Servicios"> Información de servicios
+                                  <!-- <input class="check-input required" type="radio" name="Tipo_de_Informacion" id="Radiostipo1" value="Cita_para_Asesoría_Legal"> Cita para asesoría legal
+                                  <input class="check-input required" type="radio" name="Tipo_de_Informacion" id="Radiostipo2" value="Información_de_Servicios" required> Información de servicios -->
+
+
+                                  <!-- <input type="checkbox" name="Tipo_de_Informacion" id="Radiostipo1" value="1"> -->
+                                  <select class="custom-select required" name="Tipo_de_Informacion" id="Radiostipo1">
+                                    <option value="" selected> Seleccione una Opcion</option>
+                                    <option value="Cita_para_Asesoría_Legal">Cita para asesoría legal</option>
+                                    <option value="Información_de_Servicios" required>Información de servicios</option>
+                                  </select>
 
 
                                     <!-- <input class="check-input" type="radio" name="Tipo_de_Informacion" id="Radiostipo1" value="Cita_para_Asesoría_Legal"> Cita para asesoría legal -->
@@ -1443,6 +1478,8 @@
 
                                   <br><br>
                                   <input class="required" type="checkbox" type="radio" name="checkbox_form" id="option"> <label for="option"><span></span> <p style="color: #0f0f0f;">He leído el  <a href="./assets/doc/Notaría 104. Aviso de Privacidad.pdf" target="_Blank">Aviso de privacidad</a></p></label>
+                                  <span id="errorcheckbox_form" class="error-message"></span> 
+                                  
                                   <!-- @error('checkbox_form')
                                     <p style="color:red"><strong>*{{'Favor de aceptar el Aviso de Privacidad'}}</strong></p>
                                   @enderror -->
@@ -1509,8 +1546,6 @@
                               
                               <br>
                               <br>
-
-
                                 
                               <div class="info info-horizontal">
                               <h4 class="card-title">Oficina Mérida</h4>
@@ -1710,20 +1745,23 @@
        </div>
        <!--   Core JS Files   -->
        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-       <script src="./assets/js/plugins/jquery.validate.js"></script>
        <!-- <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script> -->
        <!-- <script src="./assets/js/messages_es.min.js"></script> -->
        <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
 
        <!-- <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script> -->
+       <!-- <script src="./assets/js/core/bjquery-3.7.1.js" type="text/javascript"></script> -->
+       <script src="./assets/js/plugins/jquery.validate.js"></script>
+       <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+
        <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
        <script src="./assets/js/blk-design-system-pro.min.js?v=1.0.0" type="text/javascript"></script>
        <script src="./assets/js/plugins/sweetalert2.all.min.js"></script>
 
 
-       @include('success')
-       @include('error')
+       <!-- @include('success')
+       @include('error') -->
 
        <script>
 
@@ -1774,89 +1812,140 @@
 
 // ------------
     $(document).ready(function() {
-      
-        $("#miFormulario").validate({
+
+      $("#miFormulario").validate({
           rules: {
-            Nombre: { required: true, minlength: 2, maxlength: 50 },
-            Nif: { required: true },
-            Direccion: { required: true, minlength: 2, maxlength: 50 },
-            Email: { required: true, minlength: 4, maxlength: 100, email: true },
-            Telefono: { required: true, minlength: 2, maxlength: 50	},
-            Mensaje: { required: true, minlength: 2, maxlength: 50	},
-            Tipo_de_Informacion: { required: true },
-            checkbox_form: { required: true },
+              Nombre: {
+                  required: true,
+                  // minlength: 2, 
+                  maxlength: 64
+              },
+              Telefono: {
+                  required: true,
+                  // minlength: 6, 
+                  maxlength: 64
+              },
+              Email: {
+                  required: true,
+                  // minlength: 6, 
+                  maxlength: 64,
+                  email: true,
+              },
+              Mensaje: {
+                  required: true,
+                  minlength: 6, 
+                  maxlength: 450,
+              },
+              Tipo_de_Informacion: {
+                  required: true,
+              },
+              checkbox_form: {
+                  required: true,
+              },
           },
           messages: {
-            Nombre: "El campo Nombre es obligatorio",
-            Nif: "El campo Pedido es obligatorio. Ponga el identificador de su pedido.",
-            Direccion: "El campo Dirección es obligatorio",
-            Email: "El campo Email es obligatorio y escrito correctamente",
-            Telefono: "El campo Teléfono es obligatorio",
-            Mensaje: "El campo Mensaje es obligatorio",
-            Tipo_de_Informacion: "Seleccione una opción",
-            checkbox_form: "Favor de aceptar el Aviso de Privacidad",
+              Nombre: {
+                  required: "Por favor, ingrese su nombre.",
+                  // minlength: "El valor minimo es de 2 letras.",
+                  maxlength: "Ingrese un máximo de 64 caracteres",
+                  
+              },
+              Telefono: {
+                  required: "Por favor, ingrese su número de teléfono.",
+                  // minlength: "El valor minimo es de 6 caracteres.",
+                  maxlength: "Ingrese un máximo de 64 caracteres.",
+              },
+              Email: {
+                  required: "Por favor, ingrese su correo electrónico.",
+                  // minlength: "El valor minimo es de 6 caracteres.",
+                  maxlength: "Ingrese un máximo de 64 caracteres.",
+                  email: "Ingrese un correo electrónico valido.",
+              },
+              Mensaje: {
+                  required: "Por favor, ingrese su mensaje.",
+                  minlength: "El valor mínimo es de 6 caracteres.",
+                  maxlength: "Ingrese un máximo de 450 caracteres.",
+              },
+              Tipo_de_Informacion: {
+                  required: "Por favor, seleccione una opción.",
+              },
+              checkbox_form: {
+                  required: "Es necesario aceptar el Aviso de Privacidad.",
+              },
+              errorElement : 'span'
           },
-          errorElement : 'span'
-        });
+      });
 
-        $('#enviarFormulario').on('click', function() {
-          if ($('#miFormulario').valid()) {
+      var contadorClics = 0;
+      var limiteClics = 3;
+
+      $('#enviarFormulario').on('click', function() {
+        contadorClics++;
+
+        if ($('#miFormulario').valid()) {
+          Swal.fire({
+            title: '¿Estás seguro?',
+            text: 'Su mensaje será enviado',
+            icon: 'question',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Sí, enviar',
+            cancelButtonText: 'Cancelar',
+          }).then((result) => {
+            if (result.isConfirmed) {
+              enviarFormulario();
+              Swal.fire({
+                title: 'Enviando mensaje...',
+                allowOutsideClick: false,
+                showConfirmButton: false,
+                onBeforeOpen: () => {
+                  Swal.showLoading();
+                }
+              });
+            } 
+          });
+        } else {
+            if (contadorClics >= limiteClics) {
+              Swal.fire({
+                icon: 'error',
+                title: 'Mensaje no enviado',
+                text: 'Favor de revisar los datos ingresados',
+              });
+              contadorClics = 0;
+            }
+        }
+      });
+        
+      function enviarFormulario() {
+        var formData = $('#miFormulario').serialize();
+
+        $.ajax({
+          type: 'POST',
+          url: "{{ route('comentatios_recibir') }}",
+          data: formData,
+          
+          success: function(response) {
             Swal.fire({
-                title: '¿Estás seguro?',
-                text: 'Su mensaje será enviado',
-                icon: 'question',
-                showCancelButton: true,
-                confirmButtonColor: '#3085d6',
-                cancelButtonColor: '#d33',
-                confirmButtonText: 'Sí, enviar',
-                cancelButtonText: 'Cancelar',
-            }).then((result) => {
-              if (result.isConfirmed) {
-
-                enviarFormulario();
-
-                Swal.fire({
-                  title: 'Enviando mensaje...',
-                  allowOutsideClick: false,
-                  showConfirmButton: false,
-                  onBeforeOpen: () => {
-                      Swal.showLoading();
-                  }
-                });
-
-              } 
+              icon: 'success',
+              title: 'Su mensaje fue enviado con éxito',
+              text: "Muy pronto nos pondremos en contacto con usted",
+              // text: response.message,
             });
-          } else {
+
+            $('#miFormulario')[0].reset()
+            return false;
+          },
+
+          error: function(response) {
+            Swal.fire({
+              icon: 'error',
+              title: 'Error',
+              text: 'Hubo un error al enviar su mensaje.',
+            });
           }
         });
-
-        
-        function enviarFormulario() {
-            var formData = $('#miFormulario').serialize();
-
-            $.ajax({
-                type: 'POST',
-                url: "{{ route('comentatios_recibir') }}",
-                data: formData,
-                success: function(response) {
-                    Swal.fire({
-                        icon: 'success',
-                        title: 'Éxito',
-                        text: response.message,
-                    });
-                  $('#miFormulario')[0].reset()
-                  return false;
-
-                },
-                error: function(response) {
-                    Swal.fire({
-                        icon: 'error',
-                        title: 'Error',
-                        text: 'Hubo un error al procesar el formulario.',
-                    });
-                }
-            });
-        }
+      }
     });
 
 // ---------
