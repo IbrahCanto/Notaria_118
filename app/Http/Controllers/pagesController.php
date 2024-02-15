@@ -62,5 +62,6 @@ class PagesController extends Controller
     }
 
     $errors = $validator->errors();
+    
 }
 }

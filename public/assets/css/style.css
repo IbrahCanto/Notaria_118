@@ -689,6 +689,9 @@ body {
     
   }
   
+  .formatText2{
+    text-align: left;
+  }
   
   .bi-people-fill{
   color: #ffffff;
@@ -790,10 +793,10 @@ body {
     /* border-radius: 3.25rem !important; */
   }
 
-  span {
+  /* span {
    color: #fa1f1f; 
    font-size: .9em;
-  }
+  } */
 
   .btn-primary {
     color: #ffffff;
@@ -945,4 +948,184 @@ body {
 
 .select-items div:hover, .same-as-selected {
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+.bi-facebook {
+  font-size: 1.1em;
+  text-align: center;
+  align-items: center;
+}
+
+.bi-twitter-x {
+  font-size: 1.1em;
+  text-align: center;
+  align-items: center;
+}
+
+.bi-instagram {
+  font-size: 1.1em;
+  text-align: center;
+  align-items: center;
+}
+
+
+
+.footer .social-area {
+  padding: 15px 0;
+}
+.footer .social-area .btn {
+  margin-bottom: 3px;
+}
+
+.social-area.pull-right {
+  float: none !important;
+}
+
+.btn.btn-fill,
+.navbar .navbar-nav > li > a.btn.btn-fill {
+  color: #FFFFFF;
+  background-color: #66615B;
+  opacity: 1;
+  border-radius: 50%;
+  font-size: large;
+}
+.btn.btn-fill:hover, .btn.btn-fill:focus, .btn.btn-fill:active, .btn.btn-fill.active, .open > .btn.btn-fill.dropdown-toggle,
+.navbar .navbar-nav > li > a.btn.btn-fill:hover,
+.navbar .navbar-nav > li > a.btn.btn-fill:focus,
+.navbar .navbar-nav > li > a.btn.btn-fill:active,
+.navbar .navbar-nav > li > a.btn.btn-fill.active, .open >
+.navbar .navbar-nav > li > a.btn.btn-fill.dropdown-toggle {
+  background-color: #403D39;
+  color: #FFFFFF;
+  border-color: #403D39;
+}
+.btn.btn-fill .caret,
+.navbar .navbar-nav > li > a.btn.btn-fill .caret {
+  border-top-color: #FFFFFF;
+}
+.btn.btn-fill i,
+.navbar .navbar-nav > li > a.btn.btn-fill i {
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+
+
+.btn.btn-icon,
+.navbar .navbar-nav > li > a.btn.btn-icon {
+  border-radius: 25px;
+  padding: 6px 11px;
+}
+
+/* .btn.btn-icon i,
+.navbar .navbar-nav > li > a.btn.btn-icon i {
+  margin-right: 0px;
+}
+
+.navbar .navbar-nav > li > a.btn.btn-lg.btn-icon, .btn-lg.btn-icon {
+  border-radius: 30px;
+  padding: 9px 16px;
+}
+
+.navbar .navbar-nav > li > a.btn.btn-sm.btn-icon, .btn-sm.btn-icon {
+  padding: 3px 7px;
+}
+.navbar .navbar-nav > li > a.btn.btn-sm.btn-icon .fa, .btn-sm.btn-icon .fa {
+  line-height: 1.6;
+  width: 15px;
+}
+
+.navbar .navbar-nav > li > a.btn.btn-xs.btn-icon, .btn-xs.btn-icon {
+  padding: 1px 5px;
+}
+.navbar .navbar-nav > li > a.btn.btn-xs.btn-icon .fa, .btn-xs.btn-icon .fa {
+  width: 10px;
+} */
+
+
+/* 
+.btn i,
+.navbar .navbar-nav > li > a.btn i {
+  margin-right: 5px;
+}
+.btn.btn-icon,
+.navbar .navbar-nav > li > a.btn.btn-icon {
+  border-radius: 25px;
+  padding: 6px 11px;
+}
+.btn.btn-icon i,
+.navbar .navbar-nav > li > a.btn.btn-icon i {
+  margin-right: 0px;
+}
+
+.navbar .navbar-nav > li > a.btn.btn-lg.btn-icon, .btn-lg.btn-icon {
+  border-radius: 30px;
+  padding: 9px 16px;
+}
+
+.navbar .navbar-nav > li > a.btn.btn-sm, .btn-sm {
+  font-size: 14px;
+  border-radius: 26px;
+  padding: 4px 10px;
+}
+.navbar .navbar-nav > li > a.btn.btn-sm.btn-simple, .btn-sm.btn-simple {
+  padding: 6px 10px;
+}
+.navbar .navbar-nav > li > a.btn.btn-sm.btn-icon, .btn-sm.btn-icon {
+  padding: 3px 7px;
+}
+.navbar .navbar-nav > li > a.btn.btn-sm.btn-icon .fa, .btn-sm.btn-icon .fa {
+  line-height: 1.6;
+  width: 15px;
+}
+
+.navbar .navbar-nav > li > a.btn.btn-xs.btn-icon, .btn-xs.btn-icon {
+  padding: 1px 5px;
+}
+.navbar .navbar-nav > li > a.btn.btn-xs.btn-icon .fa, .btn-xs.btn-icon .fa {
+  width: 10px;
+} */
+
+
+.font-negrita {
+  font-weight: 400;
+}
+
+
+/* ------------------ */
+
+
+
+.checkbox-wrapper-60 input[type="checkbox"] {
+  visibility: hidden;
+  display: none;
+}
+
+.checkbox-wrapper-60 *,
+.checkbox-wrapper-60 ::after,
+.checkbox-wrapper-60 ::before {
+  box-sizing: border-box;
+}
+
+.checkbox-wrapper-60 {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.checkbox-wrapper-60 .check {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  opacity: 0;
+}
+.checkbox-wrapper-60 .label svg {
+  vertical-align: middle;
+}
+.checkbox-wrapper-60 .path1 {
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  transition: .5s all;
+}
+.checkbox-wrapper-60 .check:checked + label svg g path {
+  stroke-dashoffset: 0;
 }
