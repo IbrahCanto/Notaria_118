@@ -22,7 +22,6 @@ class RegistroMensajes extends Migration
             $table->string('Tipo_de_Informacion');
             $table->string('checkbox_form');
             $table->timestamp('fecha')->useCurrent();
-            // $table->timestamps();
         });
     }
 

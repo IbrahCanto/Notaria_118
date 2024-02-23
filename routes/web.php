@@ -7,7 +7,7 @@ Route::get('/', function () {
     $fecha = fechaEspanol (date('d-m-Y H:i:s'));
 
     return view('index', [
-        "hoy" => $fecha, 
+            "hoy" => $fecha, 
         ]);
 });
 
@@ -16,5 +16,4 @@ Route::post('registro_mensaje/{nombre?}', [PagesController::class, 'recibir'])->
 function fechaEspanol ($fecha) {
     $anio = date('Y', strtotime($fecha));
     return $anio;
-    
-  }
+}

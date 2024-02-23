@@ -309,9 +309,9 @@ select {
 button,
 [type="button"],
 [type="reset"],
-[type="submit"] {
+/* [type="submit"] {
   -webkit-appearance: button;
-}
+} */
 
 button:not(:disabled),
 [type="button"]:not(:disabled),
@@ -337,9 +337,9 @@ input[type="checkbox"] {
 input[type="date"],
 input[type="time"],
 input[type="datetime-local"],
-input[type="month"] {
+/* input[type="month"] {
   -webkit-appearance: listbox;
-}
+} */
 
 textarea {
   overflow: auto;
@@ -376,7 +376,7 @@ progress {
 
 [type="search"] {
   outline-offset: -2px;
-  -webkit-appearance: none;
+  /* -webkit-appearance: none; */
 }
 
 [type="search"]::-webkit-search-decoration {
@@ -15892,9 +15892,9 @@ hr {
   font-size: 4.25rem;
 }
 
-.icon-xl+.icon-text {
+/* .icon-xl+.icon-text {
   width: calc(100% - $icon-size-xl - 1);
-}
+} */
 
 .icon-lg {
   width: 3.7rem;
@@ -15906,9 +15906,9 @@ hr {
   font-size: 2.95rem;
 }
 
-.icon-lg+.icon-text {
+/* .icon-lg+.icon-text {
   width: calc(100% - $icon-size-lg - 1);
-}
+} */
 
 .icon-sm {
   width: 1.875rem;
@@ -15920,9 +15920,9 @@ hr {
   font-size: 1.125rem;
 }
 
-.icon-sm+.icon-text {
+/* .icon-sm+.icon-text {
   width: calc(100% - $icon-size-sm - 1);
-}
+} */
 
 .icon-shape {
   padding: 12px;
@@ -19494,7 +19494,7 @@ html {
 
 .footer nav {
   display: inline-block;
-  float: left;
+  /* float: left; */
 }
 
 .footer .content {
@@ -20732,7 +20732,7 @@ html {
   padding: 4px;
   margin-top: 3px;
   display: inline-block;
-  float: right;
+  /* float: right; */
 }
 
 .chat-page .list-group .list-group-item.active {
@@ -22927,7 +22927,7 @@ html {
 }
 
 .color-swatch-header .pass-fail-item {
-  float: left;
+  /* float: left; */
   display: inline-block;
   text-align: center;
   padding: 2px;
@@ -22986,7 +22986,7 @@ html {
 
 .table-colors .swatch {
   display: inline-block;
-  float: left;
+  /* float: left; */
   width: 40px;
   height: 40px;
   margin-right: 20px;
@@ -23004,7 +23004,7 @@ html {
   font-weight: 600;
   line-height: 10px;
   display: inline-block;
-  float: left;
+  /* float: left; */
   margin: 5px 10px 0 0;
   padding: 2px 4px;
   letter-spacing: .05em;
@@ -23867,7 +23867,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   -webkit-transition: 300ms ease 0s;
   -moz-transition: 300ms ease 0s;
   -ms-transition: 300ms ease 0s;
-  -o-transform: 300ms ease 0s;
+  /* -o-transform: 300ms ease 0s; */
   transition: 300ms ease 0s;
 }
 

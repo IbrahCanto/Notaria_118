@@ -95,18 +95,23 @@
             .primary{
                 background: #30e3ca;
             }
+
             .bg_white{
                 background: #ffffff;
             }
+
             .bg_light{
                 background: #fafafa;
             }
+
             .bg_black{
                 background: #000000;
             }
+
             .bg_dark{
                 background: rgba(0,0,0,.8);
             }
+
             .email-section{
                 padding:2.5em;
             }
@@ -115,16 +120,19 @@
                 padding: 10px 15px;
                 display: inline-block;
             }
+
             .btn.btn-primary{
                 border-radius: 5px;
                 background: #30e3ca;
                 color: #ffffff;
             }
+
             .btn.btn-white{
                 border-radius: 5px;
                 background: #ffffff;
                 color: #000000;
             }
+
             .btn.btn-white-outline{
                 border-radius: 5px;
                 background: transparent;
@@ -164,6 +172,7 @@
             .logo h1{
                 margin: 0;
             }
+
             .logo h1 a{
                 color: #30e3ca;
                 font-size: 24px;
@@ -175,9 +184,11 @@
                 position: relative;
                 z-index: 0;
             }
+
             .hero .text{
                 color: rgba(0,0,0,.3);
             }
+
             .hero .text h2{
                 color: #000;
                 font-size: 40px;
@@ -185,10 +196,12 @@
                 font-weight: 400;
                 line-height: 1.4;
             }
+
             .hero .text h3{
                 font-size: 24px;
                 font-weight: 300;
             }
+
             .hero .text h2 span{
                 font-weight: 600;
                 color: #30e3ca;
@@ -196,6 +209,7 @@
 
             .heading-section{
             }
+
             .heading-section h2{
                 color: #000000;
                 font-size: 28px;
@@ -203,6 +217,7 @@
                 line-height: 1.4;
                 font-weight: 400;
             }
+
             .heading-section .subheading{
                 margin-bottom: 20px !important;
                 display: inline-block;
@@ -212,6 +227,7 @@
                 color: rgba(0,0,0,.4);
                 position: relative;
             }
+
             .heading-section .subheading::after{
                 position: absolute;
                 left: 0;
@@ -223,17 +239,21 @@
                 background: #30e3ca;
                 margin: 0 auto;
             }
+
             .heading-section-white{
                 color: rgba(255,255,255,.8);
             }
+
             .heading-section-white h2{
                 font-family: 
                 line-height: 1;
                 padding-bottom: 0;
             }
+
             .heading-section-white h2{
                 color: #ffffff;
             }
+
             .heading-section-white .subheading{
                 margin-bottom: 0;
                 display: inline-block;
@@ -246,6 +266,7 @@
             ul.social{
                 padding: 0;
             }
+
             ul.social li{
                 display: inline-block;
                 margin-right: 10px;
@@ -255,18 +276,22 @@
                 border-top: 1px solid rgba(0,0,0,.05);
                 color: rgba(0,0,0,.5);
             }
+
             .footer .heading{
                 color: #000;
                 font-size: 20px;
             }
+
             .footer ul{
                 margin: 0;
                 padding: 0;
             }
+
             .footer ul li{
                 list-style: none;
                 margin-bottom: 10px;
             }
+
             .footer ul li a{
                 color: rgba(0,0,0,1);
             }
@@ -275,131 +300,120 @@
             }
 
             .text-adress {
-            font-size: .85rem;
+                font-size: .85rem;
             }
 
             .bg_3 {
-            font-size: .85rem;
-            color: #00a31b;
+                font-size: .85rem;
+                color: #00a31b;
             }
 
             .bg_4 {
-            font-size: .85rem;
-            color: #015272;
+                font-size: .85rem;
+                color: #015272;
             }
 
         </style>
-
     </head>
 
-        <body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #f1f1f1;">
-	        <a style="width: 100%; background-color: #f1f1f1;">
-                <div style="display: none; font-size: 1px;max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
-                    &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
-                </div>
-                <div style="max-width: 600px; margin: 0 auto;" class="email-container">
-                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
-                        <td valign="middle" class="hero bg_white" style="padding: 3em 0 0em 0;">
-                            <img src="./assets/img/Logo_118_4.png" alt="" style="width: 120px; max-width: 94px; height: auto; margin: auto; display: block; margin-right: 3em;">
-                        </td>
-				        <tr>
-                            <td valign="middle" class="hero bg_white" style="padding: 2em 0 4em 0;">
-                                <table>
-                                    <tr>
-                                        <td>
-                                            <div class="text" style="padding: 0 2.5em;">
-                                                <h3><span><b>{{ $datosFormulario['Nombre'] }}</b></span> se ha puesto en contacto con los siguientes datos:</h3>
-                                                <br>
+    <body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #f1f1f1;">
+	    <a style="width: 100%; background-color: #f1f1f1;">
+            <div style="display: none; font-size: 1px;max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
+                &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+            </div>
+            <div style="max-width: 600px; margin: 0 auto;" class="email-container">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
+                    <td valign="middle" class="hero bg_white" style="padding: 3em 0 0em 0;">
+                        <img src="./assets/img/Logo_118_4.png" alt="" style="width: 120px; max-width: 94px; height: auto; margin: auto; display: block; margin-right: 3em;">
+                    </td>
+                    <tr>
+                        <td valign="middle" class="hero bg_white" style="padding: 2em 0 4em 0;">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div class="text" style="padding: 0 2.5em;">
+                                            <h3><span><b>{{ $datosFormulario['Nombre'] }}</b></span> se ha puesto en contacto con los siguientes datos:</h3>
+                                            <br>
                                                 <div class="row">
                                                     <div class="col-md-12">
-
                                                         <h4>Nombre: <span><b>{{ $datosFormulario['Nombre'] }}</b></span></h4>
                                                         <h4>Correo electrónico: <span><b>{{ $datosFormulario['Email'] }}</b></span></h4>
                                                         <h4>Teléfono: <span><b>{{ $datosFormulario['Telefono'] }}</b></span></h4>
                                                         @if ($datosFormulario['Tipo_de_Informacion'] === 'Cita_para_Asesoría_Legal')
-                                                            <h4>Informacion requerida: <span><b>Cita para Asesoría Legal</b></span></h4> 
+                                                        <h4>Informacion requerida: <span><b>Cita para Asesoría Legal</b></span></h4> 
                                                         @elseif ($datosFormulario['Tipo_de_Informacion'] === 'Información_de_Servicios')
-                                                            <h4>Informacion requerida: <span><b>Información de Servicios</b></span></h4>
+                                                        <h4>Informacion requerida: <span><b>Información de Servicios</b></span></h4>
                                                         @else
-                                                            <p>No se pudo determinar el tipo de información solicitada.</p>
+                                                        <p>No se pudo determinar el tipo de información solicitada.</p>
                                                         @endif
                                                         <h4>Mensaje: <span><b>{{ $datosFormulario['Mensaje'] }}</b></span></h4>
-
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-	                    </tr>
-                    </table>
-
-                    <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
-      	                <tr>
-                            <td valign="middle" class="bg_light footer email-section">
-                                <table>
-            	                    <tr>
-                                        <td valign="top" width="43.333%" style="padding-top: 10px;">
-                                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                                <tr>
-                                                    <td style="text-align: left; padding-right: 10px;">
-                      	                                <h3 class="heading">Ubicación</h3>
-                                                        <div class="info-title text-adress">
-                                                            <span style=" font-weight: bold;">Oficina Mérida:</span>
-                                                            <br>Calle 17 número 106 por 24 y 26 colonia itzimná cp. 97100
-                                                        </div>
-                                                        <div class="info-title text-adress">
-                                                            <span style=" font-weight: bold;">Oficina Motul:</span>
-                                                            <br>Calle 46 número 297 letra "B" depto. 2, cp. 97430 motul Yucatán
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-
-                                        <td valign="top" width="33.333%" style="padding-top: 10px;">
-                                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                                <tr>
-                                                    <td style="text-align: left; padding-left: 5px; padding-right: 5px;">
-                      	                                <h3 class="heading">Contáctanos</h3>
-                                                            <div class="info-title text-adress">
-                                                                <span style=" font-weight: bold;">Teléfonos:</span>
-                                                                <a class="bg_4" href="tel:+529999449975" title="Llamar" target="_blank"> 
-                                                                    <br>9999 449975
-                                                                </a>
-                                                                <a class="bg_4" href="tel:+529992577212" title="Llamar" target="_blank"> 
-                                                                    <br>9992 577212
-                                                                </a>
-                                                            </div>
-
-                                                            <div class="info-title text-adress">
-                                                                <span style=" font-weight: bold;">Whatsapp:</span>
-                                                                <a class="bg_4" href="{{url('https://wa.me/5219993685092')}}" title="Ir a la App" target="_blank"> 
-                                                                    <br>9993 685092
-                                                                </a>
-                                                            </div>
-
-                                                            <div class="info-title text-adress">
-                                                                <span style=" font-weight: bold;">Correo electrónico:</span>
-                                                                <a class="bg_4"href="mailto:notaria118yucatan@gmail.com" title="Abrir Correo electrónico" target="_blank"> 
-                                                                    <br>notaria118yucatan@gmail.com
-                                                                </a>
-                                                            </div>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                    </td>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
                     </tr>
-                    </table>
-
-                </div>
-            </a>
-        </body>
+                </table>
+                <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
+                    <tr>
+                        <td valign="middle" class="bg_light footer email-section">
+                            <table>
+                                <tr>
+                                    <td valign="top" width="43.333%" style="padding-top: 10px;">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td style="text-align: left; padding-right: 10px;">
+                                                    <h3 class="heading">Ubicación</h3>
+                                                    <div class="info-title text-adress">
+                                                        <span style=" font-weight: bold;">Oficina Mérida:</span>
+                                                        <br>Calle 17 número 106 por 24 y 26 colonia itzimná cp. 97100
+                                                    </div>
+                                                    <div class="info-title text-adress">
+                                                        <span style=" font-weight: bold;">Oficina Motul:</span>
+                                                        <br>Calle 46 número 297 letra "B" depto. 2, cp. 97430 motul Yucatán
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td valign="top" width="33.333%" style="padding-top: 10px;">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td style="text-align: left; padding-left: 5px; padding-right: 5px;">
+                                                    <h3 class="heading">Contáctanos</h3>
+                                                    <div class="info-title text-adress">
+                                                        <span style=" font-weight: bold;">Teléfonos:</span>
+                                                        <a class="bg_4" href="tel:+529999449975" title="Llamar" target="_blank"> 
+                                                            <br>9999 449975
+                                                        </a>
+                                                        <a class="bg_4" href="tel:+529992577212" title="Llamar" target="_blank"> 
+                                                            <br>9992 577212
+                                                        </a>
+                                                    </div>
+                                                    <div class="info-title text-adress">
+                                                        <span style=" font-weight: bold;">Whatsapp:</span>
+                                                        <a class="bg_4" href="{{url('https://wa.me/5219993685092')}}" title="Ir a la App" target="_blank"> 
+                                                            <br>9993 685092
+                                                        </a>
+                                                    </div>
+                                                    <div class="info-title text-adress">
+                                                        <span style=" font-weight: bold;">Correo electrónico:</span>
+                                                        <a class="bg_4"href="mailto:notaria118yucatan@gmail.com" title="Abrir Correo electrónico" target="_blank"> 
+                                                            <br>notaria118yucatan@gmail.com
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </a>
+    </body>
 </html>

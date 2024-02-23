@@ -96,10 +96,7 @@ return [
     //     'name' => env('MAIL_FROM_NAME', 'Example'),
     // ],
 
-    // 'from' => ['address' => 'icafurry@gmail.com', 'name' => 'Notaría Publica 118'],
     'from' => ['address' => env('MAIL_USERNAME'), 'name' => 'Notaría Publica 118'],
-
-
 
     /*
     |--------------------------------------------------------------------------
