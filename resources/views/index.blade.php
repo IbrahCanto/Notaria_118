@@ -83,8 +83,8 @@
                     <div class="col-lg-3 col-md-12 ml-auto mt-3">
                   </div>
                   <div class="col-lg-5 col-md-12 text-center ml-auto mt-6">
-                    <img class="imagen_logo" src="assets\img\Logo_118.png">
-                    <h3 class="description shadow_font">"Notaría de confianza: Garantizamos tranquilidad jurídica, tu respaldo legal sin preocupaciones."</h3>
+                    <img class="imagen_logo" src="assets\img\Logo_118_W.png">
+                    <h3 class="description shadow_font" style="color: #0f0f0f;">"Notaría de confianza: Garantizamos tranquilidad jurídica, tu respaldo legal sin preocupaciones."</h3>
                   </div>
                   <div class="col-lg-3 col-md-12 ml-auto mt-3">
                 </div>
@@ -148,7 +148,194 @@
       
       <div class="hero-image_3">
         <div class="blogs-5" id="servicios">
-          <div class="container">
+          <div class="container1">
+            <div class="row">
+              <div class="col-md-12 ml-auto mr-auto">
+                <h2 class="title">Servicios</h2>
+
+                  <div class="row">
+                    <div class="col-lg-2 col-md-6">
+                      <div class="card card-plain">
+                        <div class="face face1">
+                          <div class="content ">
+                            <img class="img rounded imagen" src="assets/img/118/unrecognizable-man-filling-application-form.jpg">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          <div class="color_1">Contratos, traslativos de dominio</div>
+                        </h4>
+                        <p>• Operaciones de compra y venta, donaciones, daciones en pago, adjudicaciones, permutas y prescripciones.</p> 
+                        <p>• Fideicomisos que implican transferencia de dominio y aquellos utilizados como garantía.</p>
+                        <p>• Hipotecas, préstamos, cancelaciones de hipotecas.</p>
+                        <p>• Contratos de arrendamiento, acuerdos transaccionales, servidumbres.</p>
+                        <p>• Divisiones de propiedades, fusiones, urbanizaciones, cambios de nomenclatura y correcciones de medidas.</p>
+                        <p>• Regímenes de propiedad en condominio.</p>
+                        <p>• Permutas, prescripciones y servidumbres.</p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6">
+                      <div class="card card-plain">
+                        <div class="face face1">
+                          <div class="content ">
+                            <img class="img rounded imagen" src="assets/img/118/business-people-shaking-hands-together.jpg">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          <div class="color_1">Sociedades, mercantiles</div>
+                        </h4>
+                        <p>• Constitución de sociedades mercantiles.</p>
+                        <p>• Actas de asambleas, tanto ordinarias como extraordinarias.</p>
+                        <p>• Protocolización de documentos relacionados con sociedades mercantiles.</p>
+                        <p>• Transferencia de acciones mediante ventas.</p>
+                        <p>• Procesos de fusión y disolución de sociedades mercantiles.</p>
+                      </div>
+                    </div>
+                  </div>
+
+
+              <div class="row">
+                <div class="col-lg-2 col-md-6">
+                  <div class="card card-plain">
+                    <div class="face face1">
+                      <div class="content ">
+                        <img class="img rounded imagen" src="assets/img/118/mid-adult-s.jpg">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      <div class="color_1">Testamentos</div>
+                    </h4>
+                    <p>• Tramitación de procesos sucesorios.</p>
+                    <p>• Presentación de denuncias para sucesiones con testamento e intestadas.</p>
+                    <p>• Elaboración de inventarios y avalúos.</p>
+                    <p>• Desarrollo de proyectos de partición y adjudicaciones hereditarias.</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                  <div class="card card-plain">
+                    <div class="face face1">
+                      <div class="content ">
+                        <img class="img rounded imagen" src="assets/img/118/closeup-businessman-hand-sitting-desk-analyzing-document-with-data-chart-it-working-management-presentation-writing-business-strategy-entrepreneur-brainstorming-ideas-startup-office.jpg">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      <div class="color_1">Poderes/Mandatos</div>
+                    </h4>
+                    <p>• Certificación de documentos y ratificación de firmas.</p>
+                    <p>• Rectificación de inscripciones o anotaciones de propiedad.</p>
+                    <p>• Anotación de regímenes matrimoniales.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-2 col-md-6">
+                  <div class="card card-plain">
+                    <div class="face face1">
+                      <div class="content ">
+                        <img class="img rounded imagen" src="assets/img/118/family_2.jpg">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      <div class="color_1">Capitulaciones matrimoniales, disoluciones de sociedad conyugal</div>
+                        </h4>
+                        <p>• Acuerdos matrimoniales y terminaciones de la sociedad conyugal.</p>
+                        <p>• Procedimientos a través de jurisdicción voluntaria en asuntos familiares y civiles.</p>
+                        <p>• Declaración de hechos.</p>
+                        <p>• Procedimiento notarial en diligencias para identificar personas físicas.</p>
+                      </div>
+                  </div>
+                <!-- </div> -->
+
+                  <div class="col-lg-2 col-md-6">
+                    <div class="card card-plain">
+                      <div class="face face1">
+                        <div class="content ">
+                          <img class="img rounded imagen" src="assets/img/118/sign-here-please.jpg">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        <div class="color_1">Consultoría legal en materia:</div>
+                      </h4>
+                      <p>• Civil</p>
+                      <p>• Familiar</p>
+                      <p>• Agrario</p>
+                      <p>• Mediación</p>
+                      <p>• Registral</p>
+                      <p>• Fiscal</p>
+                    </div>
+                  </div>
+
+
+                <!-- <div class="row"> -->
+                  <div class="col-lg-2 col-md-6">
+                    <div class="card card-plain">
+                      <div class="face face1">
+                        <div class="content ">
+                          <img class="img rounded imagen" src="assets/img/118/business-meeting-restaurant.jpg">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        <div class="color_1">Servicios de Mediación: </div>
+                          <p class="card-description" style="font-size:.9em;">
+                            Ofrecemos servicios de Mediación por el cual, las partes en conflicto pueden comunicarse y negociar, para encontrar de manera amigable y satisfactoria la solución legal a su problema de carácter Civil-Mercantil o Familiar.
+                          </p>
+                      </h4>
+                        <div class="color_2" style="font-weight:bold;  font-size:1.1em;">Mediación de Carácter Familiar:</div>
+                          <p >• Elaboración de convenios reguladores del divorcio o separación</p>
+                          <p>• Pensión alimenticia, guarda, custodia, visitas y convivencias</p>
+                          <p>• Cuestiones patrimoniales derivadas de un Juicio Sucesorio, con declaratoria de herederos</p>
+                          <p>• Derivados de la disolución de la sociedad conyugal</p>
+                          <p>• Acuerdos para la Liquidación de la Sociedad en Convivencia</p>
+                          <br>
+                          <div class="color_2" style="font-weight:bold;  font-size:1.1em;">Mediación Civil-Mercantil: </div>
+                          <p>• Incumplimiento de compraventas, contratos, deudas</p>
+                          <p>• Problemas condominales y demás situaciones relacionadas con inmuebles</p>
+                          <p>• Sociedades civiles y/o mercantiles</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- ---------------------- -->
+      
+      {{-- <div class="hero-image_3">
+        <div class="blogs-5" id="servicios">
+          <div class="container_2">
             <div class="row">
               <div class="col-md-12 ml-auto mr-auto">
                 <h2 class="title">Servicios</h2>
@@ -325,7 +512,8 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> --}}
+        <!-- ---------------------- -->
 
         <div class="hero-image_4">
           <div class="contactus-4" id="contactanos">
@@ -491,6 +679,17 @@
                       Calle 46 número 297 letra "B" depto. 2, cp. 97430 motul Yucatán
                     </a>
                   </li>
+
+                  <li>
+                    <a>
+                      Horario de Atención: 09 a 17 Horas
+                    </a>
+                  </li>
+                  <!-- <li>
+                    <a>
+                     9 - 3
+                    </a>
+                  </li> -->
                 </ul>
               </div>
               <div class="col-md-5">
