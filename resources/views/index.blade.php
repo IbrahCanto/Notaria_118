@@ -15,6 +15,7 @@
     <link href="./assets/css/blk-design-system-pro.css?v=1.0.0" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
     <link href="./assets/css/style.css" rel="stylesheet" />
   </head>
 
@@ -560,7 +561,9 @@
                                   <div class="row">
                                     <div class="col-md-8">
                                       <br><br>
-                                      <label for="check-24"> <p style="color: #0f0f0f;">He leído el <a href="./assets/doc/Notaría 104. Aviso de Privacidad.pdf" target="_Blank">Aviso de privacidad</a></p></label>
+                                      <!-- <label for="check-24"> <p style="color: #0f0f0f;">He leído el <a href="./assets/doc/Notaría 104. Aviso de Privacidad.pdf" target="_Blank">Aviso de privacidad</a></p></label> -->
+                                      <label for="check-24"> <p style="color: #0f0f0f;">He leído el <a href="./assets/doc/sample.pdf" class="pdf-link">Aviso de privacidad</a></p></label>
+              
                                         <input class="required" type="checkbox" type="radio" name="checkbox_form" id="option">
                                     </div>
                                     <div class="col-md-4">
@@ -653,6 +656,11 @@
         </div>
       </div>
 
+
+
+
+
+
       <footer class="footer footer-big" data-background-color="black">
         <div class="container">
           <div class="content">
@@ -744,12 +752,39 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="./assets/js/plugins/jquery.fancybox.min.js"></script>
     <script src="./assets/js/plugins/jquery.validate.js"></script>
     <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
     <script src="./assets/js/blk-design-system-pro.min.js?v=1.0.0" type="text/javascript"></script>
     <script src="./assets/js/plugins/sweetalert2.all.min.js"></script>
 
     <script>
+    $(document).ready(function() {
+        $(".pdf-link").fancybox({
+            type: 'iframe',
+            iframe: {
+                preload: false,
+                css: {
+                    width: '90%', 
+                    height: '90%' 
+                }
+            }
+        });
+    });
+
+
+
+
+    // $(document).ready(function() {
+    //     $(".pdf-link").fancybox({
+    //         type: 'iframe',
+    //         iframe: {
+    //             preload: false // Evitar carga anticipada
+    //         }
+    //     });
+    // });
+
+
       var texto = "notaria118yucatan@gmail.com";
       var textoMinusculas = texto.toLowerCase();
       var contadorClics = 0;
