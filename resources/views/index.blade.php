@@ -561,10 +561,8 @@
                                   <div class="row">
                                     <div class="col-md-8">
                                       <br><br>
-                                      <!-- <label for="check-24"> <p style="color: #0f0f0f;">He leído el <a href="./assets/doc/Notaría 104. Aviso de Privacidad.pdf" target="_Blank">Aviso de privacidad</a></p></label> -->
                                       <label for="check-24"> <p style="color: #0f0f0f;">He leído el <a href="./assets/doc/sample.pdf" class="pdf-link">Aviso de privacidad</a></p></label>
-              
-                                        <input class="required" type="checkbox" type="radio" name="checkbox_form" id="option">
+                                      <input class="required" type="checkbox" type="radio" name="checkbox_form" id="option">
                                     </div>
                                     <div class="col-md-4">
                                       <button type="button" class="btn btn-round pull-right" id="enviarFormulario">Enviar mensaje</button>
@@ -656,11 +654,6 @@
         </div>
       </div>
 
-
-
-
-
-
       <footer class="footer footer-big" data-background-color="black">
         <div class="container">
           <div class="content">
@@ -693,11 +686,6 @@
                       Horario de Atención: 09 a 17 Horas
                     </a>
                   </li>
-                  <!-- <li>
-                    <a>
-                     9 - 3
-                    </a>
-                  </li> -->
                 </ul>
               </div>
               <div class="col-md-5">
@@ -759,31 +747,6 @@
     <script src="./assets/js/plugins/sweetalert2.all.min.js"></script>
 
     <script>
-    $(document).ready(function() {
-        $(".pdf-link").fancybox({
-            type: 'iframe',
-            iframe: {
-                preload: false,
-                css: {
-                    width: '90%', 
-                    height: '90%' 
-                }
-            }
-        });
-    });
-
-
-
-
-    // $(document).ready(function() {
-    //     $(".pdf-link").fancybox({
-    //         type: 'iframe',
-    //         iframe: {
-    //             preload: false // Evitar carga anticipada
-    //         }
-    //     });
-    // });
-
 
       var texto = "notaria118yucatan@gmail.com";
       var textoMinusculas = texto.toLowerCase();
@@ -794,6 +757,18 @@
       $(".nome").html(textoMinusculas),
 
       $(document).ready(function() {
+        $(".pdf-link").fancybox({
+            type: 'iframe',
+            iframe: {
+                preload: false,
+                css: {
+                    width: '90%', 
+                    height: '90%' 
+                }
+            }
+        });
+
+
         $("#miFormulario").validate({
           rules: {
             Nombre: {
