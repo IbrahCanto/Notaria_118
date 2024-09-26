@@ -11,6 +11,11 @@ Route::get('/', function () {
         ]);
 });
 
+Route::get('{card}', function ($card) {
+    return view('cards.' . $card, []);
+})->where('card', 'rmh|tdg|mpq|cce|apv|ahc|vmm|lnu|aee');
+
+
 Route::post('registro_mensaje/{nombre?}', [PagesController::class, 'recibir'])->name('comentatios_recibir');
 
 function fechaEspanol ($fecha) {
