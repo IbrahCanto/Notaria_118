@@ -726,6 +726,11 @@
                   <a href="mailto:notaria118yucatan@gmail.com"> 
                     <p class="nome"></p>
                   </a>
+
+                  <li>
+                  <a href="https://mail.hostinger.com" class="" target="_blank"><i class="bi bi-envelope"> Correo</i></a>
+                  </li>
+
                 </ul>
               </div>
             </div>
